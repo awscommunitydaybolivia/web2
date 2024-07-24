@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@600&display=swap");
+@font-face {
+  font-family: "Amazon Ember";
+  src: url("/public/AmazonEmber_W_Rg.woff");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Amazon Ember";
+  src: url("/public/AmazonEmber_W_SBd.woff");
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Amazon Ember";
+  src: url("/public/AmazonEmber_W_Bd.woff");
+  font-weight: 700;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+  @apply leading-[normal] m-0;
+}
+*,
+::before,
+::after {
+  border-width: 0;
+}
