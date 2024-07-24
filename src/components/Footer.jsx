@@ -8,10 +8,10 @@ const Footer = ({ className = "" }) => {
       <div className="self-stretch flex flex-row items-start justify-between pt-0 px-0 pb-12 box-border max-w-full gap-[20px] mq1325:flex-wrap">
         <div className="w-[500px] flex flex-col items-start justify-start gap-[24px] min-w-[500px] max-w-full mq800:min-w-full mq1325:flex-1">
           <img
-            className="w-[63px] h-[27px] relative overflow-hidden shrink-0"
+            className="h-[65px] mq450:h-[55px] relative overflow-hidden"
             loading="lazy"
             alt=""
-            src="/company-logo.svg"
+            src="https://aws-cd-bo-web.s3.amazonaws.com/aws-cd-bo-logos-web/AWS-CD-BO-logoweb.svg"
           />
           <div className="self-stretch relative leading-[120%]">
             El AWS Community Day Bolivia 2024 es realizado con el esfuerzo de las comunidades

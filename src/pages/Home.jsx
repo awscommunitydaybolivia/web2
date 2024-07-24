@@ -16,6 +16,7 @@ import Footer from "../components/Footer";
 const Home = () => {
   const speakersRef = useRef(null);
   const sponsorsRef = useRef(null);
+  const eventRef = useRef(null);
   const teamRef = useRef(null);
 
   const scrollToSection = (elementRef) => {
@@ -30,6 +31,7 @@ const Home = () => {
       <Navbar
         onSpeakersClick={() => scrollToSection(speakersRef)}
         onSponsorsClick={() => scrollToSection(sponsorsRef)}
+        onEvent1Click={() => scrollToSection(eventRef)}
         onTeamClick={() => scrollToSection(teamRef)}
       />
       <EventItemHeader />
@@ -41,7 +43,7 @@ const Home = () => {
       <Layout />
       <Layout />
       <Layout />
-      <Event1 />
+      <Event1 ref={eventRef}/>
       <Team ref={teamRef} />
       <FAQ />
       <Footer />
