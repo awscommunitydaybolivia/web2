@@ -1,11 +1,13 @@
+import React, { forwardRef } from 'react';
 import Card2 from "./Card2";
 import PropTypes from "prop-types";
 
-const Speakers = ({ className = "" }) => {
+const Speakers = forwardRef(({ className = "" }, ref) => {
   return (
     <section
-      className={`self-stretch bg-background-color-primary overflow-hidden flex flex-col items-center justify-start py-28 px-16 box-border gap-[80px] max-w-full text-center text-base text-link-primary font-aws-cd-bo-1-desktop-body-caption-regular mq800:gap-[40px] mq800:py-[47px] mq800:px-8 mq800:box-border mq1125:pt-[73px] mq1125:pb-[73px] mq1125:box-border mq450:gap-[20px] ${className}`}
-    >
+    ref={ref}
+    className={`self-stretch bg-background-color-primary overflow-hidden flex flex-col items-center justify-start py-28 px-16 box-border gap-[80px] max-w-full text-center text-base text-link-primary font-aws-cd-bo-1-desktop-body-caption-regular mq800:gap-[40px] mq800:py-[47px] mq800:px-8 mq800:box-border mq1125:pt-[73px] mq1125:pb-[73px] mq1125:box-border mq450:gap-[20px] ${className}`}
+  >
       <div className="w-[768px] flex flex-col items-center justify-start gap-[16px] max-w-full">
         <b className="relative leading-[120%] inline-block min-w-[56px]">
           Tagline
@@ -27,12 +29,14 @@ const Speakers = ({ className = "" }) => {
           </div>
         </div>
       </div>
-    </section>
+      </section>
   );
-};
+});
 
 Speakers.propTypes = {
   className: PropTypes.string,
 };
+
+Speakers.displayName = 'Speakers';  // This is optional but good for debugging
 
 export default Speakers;

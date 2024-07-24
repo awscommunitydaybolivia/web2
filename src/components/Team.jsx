@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 
 const Team = ({ className = "" }) => {
   return (
-    <section
+    <section 
       className={`self-stretch bg-background-color-primary overflow-hidden flex flex-col items-center justify-start py-28 px-16 box-border gap-[80px] max-w-full z-[3] text-center text-base text-link-primary font-aws-cd-bo-1-desktop-body-caption-regular mq800:gap-[40px] mq800:py-[73px] mq800:px-8 mq800:box-border mq450:gap-[20px] ${className}`}
     >
       <div className="w-[768px] flex flex-col items-center justify-start gap-[16px] max-w-full">

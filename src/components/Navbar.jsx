@@ -2,7 +2,7 @@ import PropTypes from "prop-types";
 import { useState, useRef } from "react";
 import useOutsideClick from "../hooks/useOutsideClick";
 
-const Navbar = ({ className = "" }) => {
+const Navbar = ({ className = "", onSpeakersClick, onSponsorsClick, onTeamClick }) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const menuRef = useRef(null);
 
@@ -31,16 +31,16 @@ const Navbar = ({ className = "" }) => {
           <div className="relative leading-[120%] inline-block min-w-[39px] hover:underline cursor-pointer">
             Inicio
           </div>
-          <div className="relative leading-[120%] inline-block min-w-[65px] hover:underline cursor-pointer">
+          <div onClick={onSpeakersClick} className="relative leading-[120%] inline-block min-w-[65px] hover:underline cursor-pointer">
             Speakers
           </div>
           <div className="relative leading-[120%] inline-block min-w-[56px] hover:underline cursor-pointer">
             Agenda
           </div>
-          <div className="relative leading-[120%] inline-block min-w-[67px] hover:underline cursor-pointer">
+          <div onClick={onSponsorsClick} className="relative leading-[120%] inline-block min-w-[67px] hover:underline cursor-pointer">
             Sponsors
           </div>
-          <div className="relative leading-[120%] inline-block min-w-[51px] hover:underline cursor-pointer">
+          <div onClick={onTeamClick} className="relative leading-[120%] inline-block min-w-[51px] hover:underline cursor-pointer">
             Equipo
           </div>
         </nav>
@@ -108,10 +108,10 @@ const Navbar = ({ className = "" }) => {
             </div>
             <nav className="flex flex-col gap-6 text-left text-base text-link-primary font-aws-cd-bo-1-desktop-body-caption-regular">
               <div className="relative leading-[180%] py-2 hover:underline cursor-pointer">Inicio</div>
-              <div className="relative leading-[180%] py-2 hover:underline cursor-pointer">Speakers</div>
+              <div onClick={onSpeakersClick} className="relative leading-[180%] py-2 hover:underline cursor-pointer">Speakers</div>
               <div className="relative leading-[180%] py-2 hover:underline cursor-pointer">Agenda</div>
-              <div className="relative leading-[180%] py-2 hover:underline cursor-pointer">Sponsors</div>
-              <div className="relative leading-[180%] py-2 hover:underline cursor-pointer">Equipo</div>
+              <div onClick={onSponsorsClick} className="relative leading-[180%] py-2 hover:underline cursor-pointer">Sponsors</div>
+              <div onClick={onTeamClick} className="relative leading-[180%] py-2 hover:underline cursor-pointer">Equipo</div>
             </nav>
             <div className="flex flex-row items-start justify-start gap-[12px] mt-6">
             <div className="flex-1 flex flex-row items-center justify-start box-border gap-[12px] min-w-[281px] mq450:box-border">
@@ -155,6 +155,10 @@ const Navbar = ({ className = "" }) => {
 
 Navbar.propTypes = {
   className: PropTypes.string,
+  onSpeakersClick: PropTypes.func,
+  onSponsorsClick: PropTypes.func,
+  onFAQClick: PropTypes.func,
+  onTeamClick: PropTypes.func,
 };
 
 export default Navbar;
