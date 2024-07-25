@@ -14,8 +14,7 @@ const Footer = ({ className = "" }) => {
             src="https://aws-cd-bo-web.s3.amazonaws.com/aws-cd-bo-logos-web/AWS-CD-BO-logoweb.svg"
           />
           <div className="self-stretch relative leading-[120%]">
-            El AWS Community Day Bolivia 2024 es realizado con los esfuerzos de
-            las comunidades de:
+            El AWS Community Day Bolivia 2024 es realizado por las comunidades:
           </div>
           <img
             className="w-[63px] h-[27px] relative overflow-hidden shrink-0"

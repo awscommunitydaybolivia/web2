@@ -39,4 +39,12 @@ export const speakersData = [
     linkedin: "https://linkedin.com/speaker1",
     twitter: "https://twitter.com/speaker1",
   },
+  {
+    name: "Speaker 6",
+    jobTitle: "Job Title 6",
+    image: "https://cdn-icons-png.flaticon.com/512/149/149071.png",
+    description: "Description for Speaker 6",
+    linkedin: "https://linkedin.com/speaker1",
+    twitter: "https://twitter.com/speaker1",
+  },
 ];
