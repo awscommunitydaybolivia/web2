@@ -1,6 +1,41 @@
 import PropTypes from "prop-types";
+import { useState, useEffect } from "react";
 
 const EventItemHeader = ({ className = "" }) => {
+  const [timeLeft, setTimeLeft] = useState({
+    days: 0,
+    hours: 0,
+    minutes: 0,
+    seconds: 0,
+  });
+
+  useEffect(() => {
+    const targetDate = new Date("2024-10-12T09:00:00").getTime();
+
+    const updateCountdown = () => {
+      const now = new Date().getTime();
+      const difference = targetDate - now;
+
+      if (difference > 0) {
+        setTimeLeft({
+          days: Math.floor(difference / (1000 * 60 * 60 * 24)),
+          hours: Math.floor(
+            (difference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
+          ),
+          minutes: Math.floor((difference % (1000 * 60 * 60)) / (1000 * 60)),
+          seconds: Math.floor((difference % (1000 * 60)) / 1000),
+        });
+      } else {
+        setTimeLeft({ days: 0, hours: 0, minutes: 0, seconds: 0 });
+      }
+    };
+
+    updateCountdown();
+    const timer = setInterval(updateCountdown, 1000);
+
+    return () => clearInterval(timer);
+  }, []);
+
   return (
     <section
       className={`self-stretch overflow-hidden flex flex-col items-center justify-center py-28 px-5 box-border bg-[url('https://aws-cd-bo-web.s3.amazonaws.com/aws-cd-bo-web-imgs/aws-cd-background-2880x1800-2.jpg')] bg-cover bg-no-repeat bg-[top] max-w-full text-center text-37xl text-background-color-primary font-aws-cd-bo-1-desktop-body-caption-regular mq800:pt-[73px] mq800:pb-[73px] mq800:box-border mq1125:gap-[40px] mq450:gap-[20px] ${className}`}
@@ -23,41 +58,13 @@ const EventItemHeader = ({ className = "" }) => {
           </div>
           <div className="self-stretch h-[102px] flex flex-col items-center justify-center py-0 px-5 box-border max-w-full text-left text-21xl mq450:gap-[16px]">
             <div className="flex-1 box-border overflow-auto overflow-y-hidden flex flex-row items-center justify-start py-4 pr-[19px] pl-6 gap-[16px] max-w-full border-[1px] border-solid border-background-color-primary">
-              <div className="flex flex-col items-center justify-center py-0 px-2">
-                <b className="relative leading-[120%] inline-block mq800:text-13xl mq800:leading-[38px] mq450:text-5xl mq450:leading-[29px]">
-                  45
-                </b>
-                <div className="relative text-lg leading-[22px] inline-block">
-                  Days
-                </div>
-              </div>
-              <div className="self-stretch w-px relative box-border shrink-0 border-r-[1px] border-solid border-background-color-primary" />
-              <div className="flex flex-col items-center justify-center py-0 px-[7px]">
-                <b className="relative leading-[120%] inline-block mq800:text-13xl mq800:leading-[38px] mq450:text-5xl mq450:leading-[29px]">
-                  12
-                </b>
-                <div className="relative text-lg leading-[22px] inline-block">
-                  Hours
-                </div>
-              </div>
-              <div className="self-stretch w-px relative box-border shrink-0 border-r-[1px] border-solid border-background-color-primary" />
-              <div className="flex flex-col items-center justify-center py-0 px-2">
-                <b className="relative leading-[120%] inline-block mq800:text-13xl mq800:leading-[38px] mq450:text-5xl mq450:leading-[29px]">
-                  44
-                </b>
-                <div className="relative text-lg leading-[22px] inline-block">
-                  Min
-                </div>
-              </div>
-              <div className="self-stretch w-px relative box-border shrink-0 border-r-[1px] border-solid border-background-color-primary" />
-              <div className="flex flex-col items-center justify-center py-0 px-2">
-                <b className="relative leading-[120%] inline-block mq800:text-13xl mq800:leading-[38px] mq450:text-5xl mq450:leading-[29px]">
-                  29
-                </b>
-                <div className="relative text-lg leading-[22px] inline-block">
-                  Secs
-                </div>
-              </div>
+              <CountdownItem value={timeLeft.days} label="Days" />
+              <Divider />
+              <CountdownItem value={timeLeft.hours} label="Hours" />
+              <Divider />
+              <CountdownItem value={timeLeft.minutes} label="Min" />
+              <Divider />
+              <CountdownItem value={timeLeft.seconds} label="Secs" />
             </div>
           </div>
         </div>
@@ -80,8 +87,26 @@ const EventItemHeader = ({ className = "" }) => {
   );
 };
 
+const CountdownItem = ({ value, label }) => (
+  <div className="flex flex-col items-center justify-center py-0 px-2">
+    <b className="relative leading-[120%] inline-block mq800:text-13xl mq800:leading-[38px] mq450:text-5xl mq450:leading-[29px]">
+      {value.toString().padStart(2, "0")}
+    </b>
+    <div className="relative text-lg leading-[22px] inline-block">{label}</div>
+  </div>
+);
+
+const Divider = () => (
+  <div className="self-stretch w-px relative box-border shrink-0 border-r-[1px] border-solid border-background-color-primary" />
+);
+
 EventItemHeader.propTypes = {
   className: PropTypes.string,
+};
+
+CountdownItem.propTypes = {
+  value: PropTypes.number.isRequired,
+  label: PropTypes.string.isRequired,
 };
 
 export default EventItemHeader;
