@@ -2,7 +2,13 @@ import PropTypes from "prop-types";
 import { useState, useRef } from "react";
 import useOutsideClick from "../hooks/useOutsideClick";
 
-const Navbar = ({ className = "", onSpeakersClick, onSponsorsClick, onAgendaClick, onTeamClick }) => {
+const Navbar = ({
+  className = "",
+  onSpeakersClick,
+  onSponsorsClick,
+  onAgendaClick,
+  onTeamClick,
+}) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const menuRef = useRef(null);
 
@@ -40,45 +46,85 @@ const Navbar = ({ className = "", onSpeakersClick, onSponsorsClick, onAgendaClic
           <div className="relative leading-[120%] inline-block min-w-[39px] hover:underline cursor-pointer">
             Inicio
           </div>
-          <div onClick={onSpeakersClick} className="relative leading-[120%] inline-block min-w-[65px] hover:underline cursor-pointer">
+          <div
+            onClick={onSpeakersClick}
+            className="relative leading-[120%] inline-block min-w-[65px] hover:underline cursor-pointer"
+          >
             Speakers
           </div>
-          <div onClick={onSponsorsClick} className="relative leading-[120%] inline-block min-w-[67px] hover:underline cursor-pointer">
+          <div
+            onClick={onSponsorsClick}
+            className="relative leading-[120%] inline-block min-w-[67px] hover:underline cursor-pointer"
+          >
             Sponsors
           </div>
-          <div onClick={onAgendaClick} className="relative leading-[120%] inline-block min-w-[56px] hover:underline cursor-pointer">
+          <div
+            onClick={onAgendaClick}
+            className="relative leading-[120%] inline-block min-w-[56px] hover:underline cursor-pointer"
+          >
             Agenda
           </div>
-          <div onClick={onTeamClick} className="relative leading-[120%] inline-block min-w-[51px] hover:underline cursor-pointer">
+          <div
+            onClick={onTeamClick}
+            className="relative leading-[120%] inline-block min-w-[51px] hover:underline cursor-pointer"
+          >
             Equipo
           </div>
         </nav>
         <div className="flex-1 flex flex-row items-center justify-end py-[14.5px] px-0 box-border min-w-[120px] max-w-full [row-gap:20px] mq450:flex-wrap mq1125:hidden">
           <div className="flex-1 flex flex-row items-center justify-end py-0 pr-6 pl-[131px] box-border gap-[12px] min-w-[281px] mq450:pl-5 mq450:box-border">
-            <img
-              className="h-6 w-6 relative overflow-hidden shrink-0 min-h-[24px]"
-              loading="lazy"
-              alt=""
-              src="/icon--facebook.svg"
-            />
-            <img
-              className="h-6 w-6 relative overflow-hidden shrink-0 min-h-[24px]"
-              loading="lazy"
-              alt=""
-              src="/icon--instagram.svg"
-            />
-            <img
-              className="h-6 w-6 relative overflow-hidden shrink-0 min-h-[24px]"
-              loading="lazy"
-              alt=""
-              src="/icon--linkedin.svg"
-            />
-            <img
-              className="h-6 w-6 relative overflow-hidden shrink-0 min-h-[24px]"
-              loading="lazy"
-              alt=""
-              src="/icon--youtube.svg"
-            />
+            <a
+              href="https://www.facebook.com/awscommunitydaybolivia/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="transition-all duration-300 ease-in-out hover:scale-110 group"
+            >
+              <img
+                className="h-6 w-6 relative overflow-hidden shrink-0 min-h-[24px] group-hover:filter group-hover:brightness-0 group-hover:saturate-100 group-hover:[color-scheme:dark]"
+                loading="lazy"
+                alt="Facebook"
+                src="/icon--facebook.svg"
+              />
+            </a>
+            <a
+              href="https://www.instagram.com/awscommunitydaybolivia"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="transition-all duration-300 ease-in-out hover:scale-110 group"
+            >
+              <img
+                className="h-6 w-6 relative overflow-hidden shrink-0 min-h-[24px] group-hover:filter group-hover:brightness-0 group-hover:saturate-100 group-hover:[color-scheme:dark]"
+                loading="lazy"
+                alt="Instagram"
+                src="/icon--instagram.svg"
+              />
+            </a>
+            <a
+              href="https://www.linkedin.com/company/aws-community-day-bolivia/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="transition-all duration-300 ease-in-out hover:scale-110 group"
+            >
+              <img
+                className="h-6 w-6 relative overflow-hidden shrink-0 min-h-[24px] group-hover:filter group-hover:brightness-0 group-hover:saturate-100 group-hover:[color-scheme:dark]"
+                loading="lazy"
+                alt="LinkedIn"
+                src="/icon--linkedin.svg"
+              />
+            </a>
+            <a
+              href="https://www.youtube.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="transition-all duration-300 ease-in-out hover:scale-110 group"
+            >
+              <img
+                className="h-6 w-6 relative overflow-hidden shrink-0 min-h-[24px] group-hover:filter group-hover:brightness-0 group-hover:saturate-100 group-hover:[color-scheme:dark]"
+                loading="lazy"
+                alt="YouTube"
+                src="/icon--youtube.svg"
+              />
+            </a>
           </div>
           <button className="cursor-pointer [border:none] py-2 px-5 bg-primary-primary rounded-31xl flex flex-row items-center justify-center hover:bg-chocolate">
             <b className="relative text-base leading-[120%] inline-block font-aws-cd-bo-1-desktop-body-caption-regular text-background-color-primary text-left min-w-[94px]">
@@ -116,39 +162,88 @@ const Navbar = ({ className = "", onSpeakersClick, onSponsorsClick, onAgendaClic
               />
             </div>
             <nav className="flex flex-col gap-6 text-left text-base text-link-primary font-aws-cd-bo-1-desktop-body-caption-regular">
-              <div className="relative leading-[180%] py-2 hover:underline cursor-pointer" onClick={handleNavClick()}>Inicio</div>
-              <div className="relative leading-[180%] py-2 hover:underline cursor-pointer" onClick={handleNavClick(onSpeakersClick)}>Speakers</div>
-              <div className="relative leading-[180%] py-2 hover:underline cursor-pointer" onClick={handleNavClick(onSponsorsClick)}>Sponsors</div>
-              <div className="relative leading-[180%] py-2 hover:underline cursor-pointer" onClick={handleNavClick(onAgendaClick)}>Agenda</div>
-              <div className="relative leading-[180%] py-2 hover:underline cursor-pointer" onClick={handleNavClick(onTeamClick)}>Equipo</div>
+              <div
+                className="relative leading-[180%] py-2 hover:underline cursor-pointer"
+                onClick={handleNavClick()}
+              >
+                Inicio
+              </div>
+              <div
+                className="relative leading-[180%] py-2 hover:underline cursor-pointer"
+                onClick={handleNavClick(onSpeakersClick)}
+              >
+                Speakers
+              </div>
+              <div
+                className="relative leading-[180%] py-2 hover:underline cursor-pointer"
+                onClick={handleNavClick(onSponsorsClick)}
+              >
+                Sponsors
+              </div>
+              <div
+                className="relative leading-[180%] py-2 hover:underline cursor-pointer"
+                onClick={handleNavClick(onAgendaClick)}
+              >
+                Agenda
+              </div>
+              <div
+                className="relative leading-[180%] py-2 hover:underline cursor-pointer"
+                onClick={handleNavClick(onTeamClick)}
+              >
+                Equipo
+              </div>
             </nav>
             <div className="flex flex-row items-start justify-start gap-[12px] mt-6">
-            <div className="flex-1 flex flex-row items-center justify-start box-border gap-[12px] min-w-[281px] mq450:box-border">
-            <img
-              className="h-6 w-6 relative overflow-hidden shrink-0 min-h-[24px]"
-              loading="lazy"
-              alt=""
-              src="/icon--facebook.svg"
-            />
-            <img
-              className="h-6 w-6 relative overflow-hidden shrink-0 min-h-[24px]"
-              loading="lazy"
-              alt=""
-              src="/icon--instagram.svg"
-            />
-            <img
-              className="h-6 w-6 relative overflow-hidden shrink-0 min-h-[24px]"
-              loading="lazy"
-              alt=""
-              src="/icon--linkedin.svg"
-            />
-            <img
-              className="h-6 w-6 relative overflow-hidden shrink-0 min-h-[24px]"
-              loading="lazy"
-              alt=""
-              src="/icon--youtube.svg"
-            />
-          </div>
+              <div className="flex-1 flex flex-row items-center justify-start box-border gap-[12px] min-w-[281px] mq450:box-border">
+                <a
+                  href="https://www.facebook.com/awscommunitydaybolivia/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    className="h-6 w-6 relative overflow-hidden shrink-0 min-h-[24px]"
+                    loading="lazy"
+                    alt="Facebook"
+                    src="/icon--facebook.svg"
+                  />
+                </a>
+                <a
+                  href="https://www.instagram.com/awscommunitydaybolivia"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    className="h-6 w-6 relative overflow-hidden shrink-0 min-h-[24px]"
+                    loading="lazy"
+                    alt="Instagram"
+                    src="/icon--instagram.svg"
+                  />
+                </a>
+                <a
+                  href="https://www.linkedin.com/company/aws-community-day-bolivia/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    className="h-6 w-6 relative overflow-hidden shrink-0 min-h-[24px]"
+                    loading="lazy"
+                    alt="LinkedIn"
+                    src="/icon--linkedin.svg"
+                  />
+                </a>
+                <a
+                  href="https://www.youtube.com/channel/YourChannelHere"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    className="h-6 w-6 relative overflow-hidden shrink-0 min-h-[24px]"
+                    loading="lazy"
+                    alt="YouTube"
+                    src="/icon--youtube.svg"
+                  />
+                </a>
+              </div>
             </div>
             <button className="cursor-pointer [border:none] py-2 px-5 bg-primary-primary rounded-31xl flex flex-row items-center justify-center hover:bg-chocolate mt-6">
               <b className="relative text-base leading-[120%] inline-block font-aws-cd-bo-1-desktop-body-caption-regular text-background-color-primary text-left min-w-[94px]">

@@ -38,7 +38,7 @@ const EventItemHeader = ({ className = "" }) => {
 
   return (
     <section
-      className={`self-stretch overflow-hidden flex flex-col items-center justify-center py-28 px-5 box-border bg-[url('https://aws-cd-bo-web.s3.amazonaws.com/aws-cd-bo-web-imgs/aws-cd-background-2880x1800-2.jpg')] bg-cover bg-no-repeat bg-[top] max-w-full text-center text-37xl text-background-color-primary font-aws-cd-bo-1-desktop-body-caption-regular mq800:pt-[73px] mq800:pb-[73px] mq800:box-border mq1125:gap-[40px] mq450:gap-[20px] ${className}`}
+      className={`self-stretch overflow-hidden flex flex-col items-center justify-center py-28 px-5 box-border bg-[url('https://aws-cd-bo-web.s3.amazonaws.com/aws-cd-bo-web-imgs/aws-cd-background-2880x1800-2.jpg')] bg-cover bg-no-repeat bg-[top] max-w-full mq450:bg-[url('https://aws-cd-bo-web.s3.amazonaws.com/aws-cd-bo-web-imgs/aws-cd-background-450x800-2.jpg')]  text-center text-37xl text-background-color-primary font-aws-cd-bo-1-desktop-body-caption-regular mq800:pt-[73px] mq800:pb-[73px] mq800:box-border mq1125:gap-[40px] mq450:gap-[20px] ${className}`}
     >
       <div className="w-[768px] flex flex-col items-center justify-center gap-[32px] max-w-full mq450:gap-[16px]">
         <div className="self-stretch flex flex-col items-center justify-center gap-[24px] max-w-full">
@@ -52,7 +52,7 @@ const EventItemHeader = ({ className = "" }) => {
               </b>
               <div className="self-stretch relative text-lg leading-[120%]">
                 <p className="m-0">{`¡Sé parte de la primera versión del mejor evento de `}</p>
-                <p className="m-0">tecnologia en la nube en Bolivia!</p>
+                <p className="m-0">tecnología en la nube en Bolivia!</p>
               </div>
             </div>
           </div>

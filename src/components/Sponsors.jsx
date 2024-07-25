@@ -3,6 +3,8 @@ import React, { forwardRef } from 'react';
 import SponsorsDia from "./SponsorsDia";
 import SponsorsPlati from "./SponsorsPlati";
 import SponsorsOro from "./SponsorsOro";
+import SponsorsPlata from "./SponsorsPlata";
+
 import PropTypes from "prop-types";
 
 const Sponsors = forwardRef(({ className = "" }, ref) => {
@@ -18,7 +20,7 @@ const Sponsors = forwardRef(({ className = "" }, ref) => {
       <SponsorsDia />
       <SponsorsPlati />
       <SponsorsOro heading="Sponsors Oro" />
-      <SponsorsOro heading="Sponsors Plata" />
+      <SponsorsPlata heading="Sponsors Platax" />
       </section>
   );
 });

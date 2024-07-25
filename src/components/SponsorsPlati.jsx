@@ -13,22 +13,22 @@ const SponsorsPlati = ({ className = "" }) => {
           className="self-stretch w-[140px] relative max-h-full overflow-hidden shrink-0 min-h-[56px]"
           loading="lazy"
           alt=""
-          src="/webflow--black-1.svg"
+          src="/company-logo.svg"
         />
         <img
           className="self-stretch w-[140px] relative max-h-full overflow-hidden shrink-0 min-h-[56px]"
           alt=""
-          src="/relume--black-1.svg"
+          src="/company-logo.svg"
         />
         <img
           className="self-stretch w-[140px] relative max-h-full overflow-hidden shrink-0 min-h-[56px]"
           alt=""
-          src="/webflow--black.svg"
+          src="/company-logo.svg"
         />
         <img
           className="self-stretch w-[140px] relative max-h-full overflow-hidden shrink-0 min-h-[56px]"
           alt=""
-          src="/relume--black-2.svg"
+          src="/company-logo.svg"
         />
       </div>
     </div>

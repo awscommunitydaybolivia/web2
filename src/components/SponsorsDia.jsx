@@ -12,12 +12,12 @@ const SponsorsDia = ({ className = "" }) => {
         <img
           className="self-stretch w-[140px] relative max-h-full overflow-hidden shrink-0 min-h-[56px]"
           alt=""
-          src="/webflow--black.svg"
+          src="/company-logo.svg"
         />
         <img
           className="self-stretch w-[140px] relative max-h-full overflow-hidden shrink-0 min-h-[56px]"
           alt=""
-          src="/relume--black.svg"
+          src="/company-logo.svg"
         />
       </div>
     </div>

@@ -14,8 +14,8 @@ const Footer = ({ className = "" }) => {
             src="https://aws-cd-bo-web.s3.amazonaws.com/aws-cd-bo-logos-web/AWS-CD-BO-logoweb.svg"
           />
           <div className="self-stretch relative leading-[120%]">
-            El AWS Community Day Bolivia 2024 es realizado con los esfuerzos de las comunidades
-            de:
+            El AWS Community Day Bolivia 2024 es realizado con los esfuerzos de
+            las comunidades de:
           </div>
           <img
             className="w-[63px] h-[27px] relative overflow-hidden shrink-0"
@@ -75,51 +75,71 @@ const Footer = ({ className = "" }) => {
               </div>
             </div>
           </div>
-          <div className="flex-1 flex flex-col items-start justify-start gap-[16px] min-w-[151px] font-text-regular-semi-bold">
+          <div className="flex-1 flex flex-col items-start justify-start gap-[16px] min-w-[151px] font-aws-cd-bo-1-desktop-body-caption-bold">
             <div className="self-stretch relative leading-[150%] font-semibold">
               Follow Us
             </div>
             <div className="self-stretch flex flex-col items-start justify-start text-sm font-aws-cd-bo-1-desktop-body-caption-regular">
-              <div className="self-stretch flex flex-row items-center justify-start py-2 pr-[105px] pl-0 gap-[12px]">
+              <a
+                href="https://www.facebook.com/awscommunitydaybolivia"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="self-stretch flex flex-row items-center justify-start py-2 pr-[105px] pl-0 gap-[12px] no-underline text-current hover:text-current hover:underline focus:text-current visited:no-underline visited:text-current"
+              >
                 <img
                   className="h-6 w-6 relative overflow-hidden shrink-0"
-                  alt=""
+                  alt="Facebook"
                   src="/icon--facebook-1.svg"
                 />
                 <div className="relative leading-[17px] inline-block min-w-[60px]">
                   Facebook
                 </div>
-              </div>
-              <div className="self-stretch flex flex-row items-center justify-start py-2 pr-[100px] pl-0 gap-[12px]">
+              </a>
+              <a
+                href="https://www.instagram.com/awscommunitydaybolivia"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="self-stretch flex flex-row items-center justify-start py-2 pr-[100px] pl-0 gap-[12px] no-underline text-current hover:text-current hover:underline focus:text-current visited:no-underline visited:text-current"
+              >
                 <img
                   className="h-6 w-6 relative overflow-hidden shrink-0"
-                  alt=""
+                  alt="Instagram"
                   src="/icon--instagram-1.svg"
                 />
                 <div className="relative leading-[17px] inline-block min-w-[65px]">
                   Instagram
                 </div>
-              </div>
-              <div className="self-stretch flex flex-row items-center justify-start py-2 pr-[111px] pl-0 gap-[12px]">
+              </a>
+              <a
+                href="https://www.linkedin.com/company/aws-community-day-bolivia"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="self-stretch flex flex-row items-center justify-start py-2 pr-[111px] pl-0 gap-[12px] no-underline text-current hover:text-current hover:underline focus:text-current visited:no-underline visited:text-current"
+              >
                 <img
                   className="h-6 w-6 relative overflow-hidden shrink-0"
-                  alt=""
+                  alt="LinkedIn"
                   src="/icon--linkedin-1.svg"
                 />
                 <div className="relative leading-[17px] inline-block min-w-[54px]">
                   LinkedIn
                 </div>
-              </div>
-              <div className="self-stretch flex flex-row items-center justify-start py-2 pr-28 pl-0 gap-[12px]">
+              </a>
+              <a
+                href="https://www.youtube.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="self-stretch flex flex-row items-center justify-start py-2 pr-28 pl-0 gap-[12px] no-underline text-current hover:text-current hover:underline focus:text-current visited:no-underline visited:text-current"
+              >
                 <img
                   className="h-6 w-6 relative overflow-hidden shrink-0"
-                  alt=""
+                  alt="YouTube"
                   src="/icon--youtube-1.svg"
                 />
                 <div className="relative leading-[17px] inline-block min-w-[53px]">
                   Youtube
                 </div>
-              </div>
+              </a>
             </div>
           </div>
         </div>
@@ -128,13 +148,7 @@ const Footer = ({ className = "" }) => {
         <div className="self-stretch h-px relative bg-link-primary box-border border-[1px] border-solid border-link-primary" />
         <div className="self-stretch flex flex-row items-start justify-between gap-[20px] max-w-full mq1125:flex-wrap">
           <div className="relative leading-[120%] inline-block max-w-full">
-            © 2024 AWS Community Day Bolivia. Todos los derechos reservados.
-          </div>
-          <div className="flex flex-row items-start justify-start gap-[24px]">
-            <div className="relative leading-[17px]">
-              Política de Privacidad
-            </div>
-            <div className="relative leading-[17px]">Términos del Servicio</div>
+            © 2024 AWS Community Day Bolivia.
           </div>
         </div>
       </div>
