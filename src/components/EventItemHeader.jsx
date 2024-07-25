@@ -22,39 +22,39 @@ const EventItemHeader = ({ className = "" }) => {
             </div>
           </div>
           <div className="self-stretch h-[102px] flex flex-col items-center justify-center py-0 px-5 box-border max-w-full text-left text-21xl mq450:gap-[16px]">
-            <div className="flex-1 box-border overflow-x-auto flex flex-row items-center justify-start py-4 pr-[19px] pl-6 gap-[16px] max-w-full border-[1px] border-solid border-background-color-primary">
+            <div className="flex-1 box-border overflow-auto overflow-y-hidden flex flex-row items-center justify-start py-4 pr-[19px] pl-6 gap-[16px] max-w-full border-[1px] border-solid border-background-color-primary">
               <div className="flex flex-col items-center justify-center py-0 px-2">
-                <b className="relative leading-[120%] inline-block min-w-[47px] mq800:text-13xl mq800:leading-[38px] mq450:text-5xl mq450:leading-[29px]">
+                <b className="relative leading-[120%] inline-block mq800:text-13xl mq800:leading-[38px] mq450:text-5xl mq450:leading-[29px]">
                   45
                 </b>
-                <div className="relative text-lg leading-[22px] inline-block min-w-[39px]">
+                <div className="relative text-lg leading-[22px] inline-block">
                   Days
                 </div>
               </div>
               <div className="self-stretch w-px relative box-border shrink-0 border-r-[1px] border-solid border-background-color-primary" />
               <div className="flex flex-col items-center justify-center py-0 px-[7px]">
-                <b className="relative leading-[120%] inline-block min-w-[47px] mq800:text-13xl mq800:leading-[38px] mq450:text-5xl mq450:leading-[29px]">
+                <b className="relative leading-[120%] inline-block mq800:text-13xl mq800:leading-[38px] mq450:text-5xl mq450:leading-[29px]">
                   12
                 </b>
-                <div className="relative text-lg leading-[22px] inline-block min-w-[49px]">
+                <div className="relative text-lg leading-[22px] inline-block">
                   Hours
                 </div>
               </div>
               <div className="self-stretch w-px relative box-border shrink-0 border-r-[1px] border-solid border-background-color-primary" />
               <div className="flex flex-col items-center justify-center py-0 px-2">
-                <b className="relative leading-[120%] inline-block min-w-[47px] mq800:text-13xl mq800:leading-[38px] mq450:text-5xl mq450:leading-[29px]">
+                <b className="relative leading-[120%] inline-block mq800:text-13xl mq800:leading-[38px] mq450:text-5xl mq450:leading-[29px]">
                   44
                 </b>
-                <div className="relative text-lg leading-[22px] inline-block min-w-[31px]">
+                <div className="relative text-lg leading-[22px] inline-block">
                   Min
                 </div>
               </div>
               <div className="self-stretch w-px relative box-border shrink-0 border-r-[1px] border-solid border-background-color-primary" />
               <div className="flex flex-col items-center justify-center py-0 px-2">
-                <b className="relative leading-[120%] inline-block min-w-[47px] mq800:text-13xl mq800:leading-[38px] mq450:text-5xl mq450:leading-[29px]">
+                <b className="relative leading-[120%] inline-block mq800:text-13xl mq800:leading-[38px] mq450:text-5xl mq450:leading-[29px]">
                   29
                 </b>
-                <div className="relative text-lg leading-[22px] inline-block min-w-[36px]">
+                <div className="relative text-lg leading-[22px] inline-block">
                   Secs
                 </div>
               </div>
