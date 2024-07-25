@@ -23,11 +23,16 @@ const CFP = ({ className = "" }) => {
           </div>
         </div>
         <div className="flex flex-row items-start justify-start pt-4 px-0 pb-0">
-          <button className="cursor-pointer py-2.5 px-[23px] bg-[transparent] rounded-31xl flex flex-row items-center justify-center whitespace-nowrap border-[1px] border-solid border-background-color-primary hover:bg-gainsboro-200 hover:box-border hover:border-[1px] hover:border-solid hover:border-gainsboro-100">
+          <a
+            href="https://sessionize.com/aws-community-day-bolivia-2024/" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="cursor-pointer py-2.5 px-[23px] bg-[transparent] rounded-31xl flex flex-row items-center justify-center whitespace-nowrap border-[1px] border-solid border-background-color-primary hover:bg-gainsboro-200 hover:box-border hover:border-[1px] hover:border-solid hover:border-gainsboro-100 no-underline"
+          >
             <b className="relative text-base leading-[120%] font-aws-cd-bo-1-desktop-body-caption-regular text-background-color-primary text-left">
               ¡Quiero ser Speaker!
             </b>
-          </button>
+          </a>
         </div>
       </div>
     </section>

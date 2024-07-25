@@ -21,7 +21,7 @@ const Agenda = forwardRef(({ className = "" }, ref) => {
         </div>
       </div>
       <div className="self-stretch flex flex-col items-center justify-start gap-[48px] max-w-full text-left text-9xl mq800:gap-[24px]">
-        <div className="self-stretch flex flex-row items-center justify-center py-0 px-5">
+        <div className="self-stretch flex flex-row items-center justify-center py-0 px-0">
           <h2 className="m-0 relative text-inherit leading-[34px] font-bold font-inherit mq450:text-3xl mq450:leading-[27px]">
             Sábado 12 de Octubre
           </h2>

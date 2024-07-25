@@ -40,12 +40,12 @@ const Home = () => {
       <Map1 />
       <Speakers ref={speakersRef}  />
       <Sponsors ref={sponsorsRef} />
+      {/*<Layout />
       <Layout />
-      <Layout />
-      <Layout />
+      <Layout />*/}
       <Agenda ref={agendaRef}/>
       <Team ref={teamRef} />
-      <FAQ />
+      {/*<FAQ />*/}
       <Footer />
     </div>
   );
