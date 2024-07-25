@@ -2,7 +2,7 @@ import PropTypes from "prop-types";
 import { useState, useRef } from "react";
 import useOutsideClick from "../hooks/useOutsideClick";
 
-const Navbar = ({ className = "", onSpeakersClick, onSponsorsClick, onEvent1Click, onTeamClick }) => {
+const Navbar = ({ className = "", onSpeakersClick, onSponsorsClick, onAgendaClick, onTeamClick }) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const menuRef = useRef(null);
 
@@ -37,7 +37,7 @@ const Navbar = ({ className = "", onSpeakersClick, onSponsorsClick, onEvent1Clic
           <div onClick={onSponsorsClick} className="relative leading-[120%] inline-block min-w-[67px] hover:underline cursor-pointer">
             Sponsors
           </div>
-          <div onClick={onEvent1Click} className="relative leading-[120%] inline-block min-w-[56px] hover:underline cursor-pointer">
+          <div onClick={onAgendaClick} className="relative leading-[120%] inline-block min-w-[56px] hover:underline cursor-pointer">
             Agenda
           </div>
           <div onClick={onTeamClick} className="relative leading-[120%] inline-block min-w-[51px] hover:underline cursor-pointer">
@@ -112,7 +112,7 @@ const Navbar = ({ className = "", onSpeakersClick, onSponsorsClick, onEvent1Clic
               
               <div onClick={onSponsorsClick} className="relative leading-[180%] py-2 hover:underline cursor-pointer">Sponsors</div>
               
-              <div onClick={onEvent1Click} className="relative leading-[180%] py-2 hover:underline cursor-pointer">Agenda</div>
+              <div onClick={onAgendaClick} className="relative leading-[180%] py-2 hover:underline cursor-pointer">Agenda</div>
               
               <div onClick={onTeamClick} className="relative leading-[180%] py-2 hover:underline cursor-pointer">Equipo</div>
             </nav>
@@ -160,7 +160,7 @@ Navbar.propTypes = {
   className: PropTypes.string,
   onSpeakersClick: PropTypes.func,
   onSponsorsClick: PropTypes.func,
-  onEvent1Click: PropTypes.func,
+  onAgendaClick: PropTypes.func,
   onTeamClick: PropTypes.func,
 };
 

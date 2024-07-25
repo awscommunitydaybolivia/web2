@@ -62,7 +62,7 @@ const EventItemHeader = ({ className = "" }) => {
           </div>
         </div>
         <div className="flex flex-col items-center justify-center py-0 px-[63px] box-border max-w-full mq800:pl-[31px] mq800:pr-[31px] mq800:box-border">
-          <div className="flex flex-row items-start justify-start gap-[16px] mq450:flex-wrap">
+          <div className="flex flex-row items-start justify-start gap-[16px] mq450:flex-wrap mq450:justify-center ">
             <button className="cursor-pointer [border:none] py-3 px-6 bg-primary-primary rounded-31xl flex flex-row items-center justify-center hover:bg-chocolate">
               <b className="relative text-base leading-[120%] inline-block font-aws-cd-bo-1-desktop-body-caption-regular text-background-color-primary text-left min-w-[86px]">
                 Inscribirme

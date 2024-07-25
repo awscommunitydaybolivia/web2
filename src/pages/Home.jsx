@@ -31,7 +31,7 @@ const Home = () => {
       <Navbar
         onSpeakersClick={() => scrollToSection(speakersRef)}
         onSponsorsClick={() => scrollToSection(sponsorsRef)}
-        onEvent1Click={() => scrollToSection(eventRef)}
+        onAgendaClick={() => scrollToSection(eventRef)}
         onTeamClick={() => scrollToSection(teamRef)}
       />
       <EventItemHeader />
