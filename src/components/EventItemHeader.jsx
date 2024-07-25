@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 const EventItemHeader = ({ className = "" }) => {
   return (
     <section
-      className={`self-stretch overflow-hidden flex flex-col items-center justify-center py-28 px-5 box-border bg-[url('/public/event-item-header--3@3x.png')] bg-cover bg-no-repeat bg-[top] max-w-full text-center text-37xl text-background-color-primary font-aws-cd-bo-1-desktop-body-caption-regular mq800:pt-[73px] mq800:pb-[73px] mq800:box-border mq1125:gap-[40px] mq450:gap-[20px] ${className}`}
+      className={`self-stretch overflow-hidden flex flex-col items-center justify-center py-28 px-5 box-border bg-[url('https://aws-cd-bo-web.s3.amazonaws.com/aws-cd-bo-web-imgs/aws-cd-background-2880x1800-2.jpg')] bg-cover bg-no-repeat bg-[top] max-w-full text-center text-37xl text-background-color-primary font-aws-cd-bo-1-desktop-body-caption-regular mq800:pt-[73px] mq800:pb-[73px] mq800:box-border mq1125:gap-[40px] mq450:gap-[20px] ${className}`}
     >
       <div className="w-[768px] flex flex-col items-center justify-center gap-[32px] max-w-full mq450:gap-[16px]">
         <div className="self-stretch flex flex-col items-center justify-center gap-[24px] max-w-full">

@@ -22,8 +22,14 @@ const Team = forwardRef(({ className = "" }, ref) => {
         </div>
       </div>
       <div className="self-stretch flex flex-col items-center justify-start text-lg mq800:gap-[48px] mq450:gap-[24px]">
-        <div className="self-stretch flex flex-col items-start justify-start mq800:gap-[32px] mq450:gap-[16px]">
-          <div className="self-stretch flex flex-row flex-wrap items-start justify-start gap-[32px] mq800:gap-[16px]">
+        <div className="self-stretch flex flex-col items-start justify-center mq800:gap-[32px] mq450:gap-[16px]">
+          <div className="self-stretch flex flex-row flex-wrap items-start justify-center gap-[32px] mq800:gap-[16px] max-w-full">
+            <Card />
+            <Card />
+            <Card />
+            <Card />
+            <Card />
+            <Card />
             <Card />
             <Card />
             <Card />

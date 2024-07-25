@@ -8,7 +8,7 @@ import Map1 from "../components/Map1";
 import Speakers from "../components/Speakers";
 import Sponsors from "../components/Sponsors";
 import Layout from "../components/Layout";
-import Event1 from "../components/Event1";
+import Agenda from "../components/Agenda";
 import FAQ from "../components/FAQ";
 import Team from "../components/Team";
 import Footer from "../components/Footer";
@@ -43,7 +43,7 @@ const Home = () => {
       <Layout />
       <Layout />
       <Layout />
-      <Event1 ref={eventRef}/>
+      <Agenda ref={eventRef}/>
       <Team ref={teamRef} />
       <FAQ />
       <Footer />

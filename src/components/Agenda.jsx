@@ -3,7 +3,7 @@ import React, { forwardRef } from 'react';
 import Card1 from "./Card1";
 import PropTypes from "prop-types";
 
-const Event1 = forwardRef(({ className = "" }, ref) => {
+const Agenda = forwardRef(({ className = "" }, ref) => {
   return (
     <section ref={ref}
       className={`self-stretch bg-background-color-primary overflow-hidden flex flex-col items-center justify-start py-28 px-16 box-border gap-[80px] max-w-full z-[1] text-center text-base text-link-primary font-aws-cd-bo-1-desktop-body-caption-regular mq800:gap-[40px] mq800:pl-8 mq800:pr-8 mq800:box-border mq1125:pt-[73px] mq1125:pb-[73px] mq1125:box-border mq450:gap-[20px] mq450:pt-[47px] mq450:pb-[47px] mq450:box-border ${className}`}
@@ -38,8 +38,8 @@ const Event1 = forwardRef(({ className = "" }, ref) => {
 
 
 
-Event1.propTypes = {
+Agenda.propTypes = {
   className: PropTypes.string,
 };
 
-export default Event1;
+export default Agenda;
