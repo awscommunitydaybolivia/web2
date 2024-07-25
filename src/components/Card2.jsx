@@ -1,6 +1,6 @@
 import PropTypes from "prop-types";
 
-const Card2 = ({ className = "" }) => {
+const Card2 = ({ speaker, className = "" }) => {
   return (
     <div
       className={`h-[495px] flex flex-col items-center justify-start gap-[24px] text-center text-lg text-link-primary font-aws-cd-bo-1-desktop-body-caption-regular ${className}`}
@@ -8,19 +8,18 @@ const Card2 = ({ className = "" }) => {
       <img
         className="self-stretch flex-1 relative max-w-full overflow-hidden max-h-full object-cover"
         loading="lazy"
-        alt=""
-        src="/placeholder-image-1@2x.png"
+        alt={speaker.name}
+        src={speaker.image}
       />
       <div className="self-stretch flex flex-col items-center justify-start gap-[16px]">
         <div className="self-stretch flex flex-col items-center justify-start">
-          <b className="self-stretch relative leading-[150%]">Full name</b>
+          <b className="self-stretch relative leading-[250%]">{speaker.name}</b>
           <div className="self-stretch relative leading-[150%] font-medium">
-            Job title
+            {speaker.jobTitle}
           </div>
         </div>
         <div className="self-stretch relative text-base leading-[120%]">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-          varius enim in eros elementum tristique.
+          {speaker.description}
         </div>
       </div>
       <div className="flex flex-row items-start justify-start gap-[14px]">
@@ -40,6 +39,14 @@ const Card2 = ({ className = "" }) => {
 };
 
 Card2.propTypes = {
+  speaker: PropTypes.shape({
+    name: PropTypes.string.isRequired,
+    jobTitle: PropTypes.string.isRequired,
+    image: PropTypes.string.isRequired,
+    description: PropTypes.string.isRequired,
+    linkedin: PropTypes.string,
+    twitter: PropTypes.string,
+  }),
   className: PropTypes.string,
 };
 

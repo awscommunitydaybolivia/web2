@@ -12,7 +12,7 @@ const Map1 = ({ className = "" }) => {
               <b className="relative leading-[120%]">Ubicación del Evento</b>
               <div className="self-stretch flex flex-col items-center justify-start gap-[24px] text-29xl">
                 <h1 className="m-0 self-stretch relative text-inherit leading-[120%] font-bold font-inherit mq800:text-19xl mq800:leading-[46px] mq450:text-10xl mq450:leading-[35px]">
-                  Universidad Católica Boliviana “San Pablo”, Sede Lapaz
+                  Universidad Católica Boliviana “San Pablo”, Sede La Paz 
                 </h1>
                 <h3 className="m-0 self-stretch relative text-5xl leading-[29px] font-normal font-inherit mq450:text-lgi mq450:leading-[23px]">
                   Calle 14 de Septiembre esq. 2 de Obrajes Nro. 4807

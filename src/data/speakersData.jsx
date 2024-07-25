@@ -1,0 +1,42 @@
+export const speakersData = [
+  {
+    name: "Speaker 1",
+    jobTitle: "Job Title 1",
+    image: "https://cdn-icons-png.flaticon.com/512/149/149071.png",
+    description: "Description for Speaker 1",
+    linkedin: "https://linkedin.com/speaker1",
+    twitter: "https://twitter.com/speaker1",
+  },
+  {
+    name: "Speaker 2",
+    jobTitle: "Job Title 2",
+    image: "https://cdn-icons-png.flaticon.com/512/149/149071.png",
+    description: "Description for Speaker 2",
+    linkedin: "https://linkedin.com/speaker1",
+    twitter: "https://twitter.com/speaker1",
+  },
+  {
+    name: "Speaker 3",
+    jobTitle: "Job Title 3",
+    image: "https://cdn-icons-png.flaticon.com/512/149/149071.png",
+    description: "Description for Speaker 4",
+    linkedin: "https://linkedin.com/speaker1",
+    twitter: "https://twitter.com/speaker1",
+  },
+  {
+    name: "Speaker 4",
+    jobTitle: "Job Title 4",
+    image: "https://cdn-icons-png.flaticon.com/512/149/149071.png",
+    description: "Description for Speaker 4",
+    linkedin: "https://linkedin.com/speaker1",
+    twitter: "https://twitter.com/speaker1",
+  },
+  {
+    name: "Speaker 5",
+    jobTitle: "Job Title 5",
+    image: "https://cdn-icons-png.flaticon.com/512/149/149071.png",
+    description: "Description for Speaker 5",
+    linkedin: "https://linkedin.com/speaker1",
+    twitter: "https://twitter.com/speaker1",
+  },
+];
