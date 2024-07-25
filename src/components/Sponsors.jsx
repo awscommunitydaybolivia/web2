@@ -20,7 +20,7 @@ const Sponsors = forwardRef(({ className = "" }, ref) => {
       <SponsorsDia />
       <SponsorsPlati />
       <SponsorsOro heading="Sponsors Oro" />
-      <SponsorsPlata heading="Sponsors Platax" />
+      <SponsorsPlata heading="Sponsors Plata" />
       </section>
   );
 });
