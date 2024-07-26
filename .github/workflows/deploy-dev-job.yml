@@ -1,15 +1,11 @@
-name: Deploy Vite App to S3
-
-# on:
-#     push:
-#       branches: [ main ]
-#     pull_request:
-#       branches: [ main ]
+name: Deploy Vite App to Draft S3
 
 on:
-    push:
-        branches: 
-            - build/publish
+  push:
+    branches: 
+      - build/*
+      - feature/*
+      - develop
 
 env:
   AWS_REGION : "us-east-1"
@@ -44,14 +40,15 @@ jobs:
         role-session-name: GitHub_to_AWS_via_FederatedOIDC
         aws-region: ${{ env.AWS_REGION }}
 
-    # Hello from AWS: WhoAmI
+    # WhoAmI
     - name: Sts GetCallerIdentity
       run: |
         aws sts get-caller-identity
 
-    # - name: Deploy to S3
-    #   env:
-    #     AWS_REGION: {{ env.AWS_REGION }}
-    #     S3_BUCKET: 'awscommunityday-bolivia-draft'
-    #   run: |
-    #     aws s3 sync dist/ s3://$S3_BUCKET --delete
+    - name: Deploy to S3
+      env:
+        AWS_REGION: ${{ env.AWS_REGION }}
+        S3_BUCKET: 'awscommunityday-bolivia-draft'
+      run: |
+        aws s3 sync build/ s3://$S3_BUCKET --delete
+  
