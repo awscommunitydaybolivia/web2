@@ -31,9 +31,6 @@ const Team = forwardRef(({ className = "" }, ref) => {
             <Card />
             <Card />
             <Card />
-            <Card />
-            <Card />
-            <Card />
           </div>
         </div>
       </div>
