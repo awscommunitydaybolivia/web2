@@ -44,9 +44,9 @@ jobs:
       run: |
         aws sts get-caller-identity
 
-    - name: Deploy to S3
-      env:
-        AWS_REGION: ${{ env.AWS_REGION }}
-        S3_BUCKET: 'awscommunityday-bolivia-prod'
-      run: |
-        aws s3 sync build/ s3://$S3_BUCKET --delete
+    # - name: Deploy to S3
+    #   env:
+    #     AWS_REGION: ${{ env.AWS_REGION }}
+    #     S3_BUCKET: 'awscommunityday-bolivia-prod'
+    #   run: |
+    #     aws s3 sync build/ s3://$S3_BUCKET --delete
