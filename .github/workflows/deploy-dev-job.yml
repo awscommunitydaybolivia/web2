@@ -40,11 +40,6 @@ jobs:
         role-session-name: GitHub_to_AWS_via_FederatedOIDC
         aws-region: ${{ env.AWS_REGION }}
 
-    # WhoAmI
-    - name: Sts GetCallerIdentity
-      run: |
-        aws sts get-caller-identity
-
     - name: Deploy to S3
       env:
         AWS_REGION: ${{ env.AWS_REGION }}
@@ -52,3 +47,9 @@ jobs:
       run: |
         aws s3 sync build/ s3://$S3_BUCKET --delete
   
+    - name: Invalidate CloudFront Cache
+      env:
+        CLOUDFRONT_DISTRIBUTION_ID: ${{ secrets.DRAFT_CLOUDFRONT_DISTRIBUTION_ID }}
+      run: |
+        aws cloudfront create-invalidation --distribution-id $CLOUDFRONT_DISTRIBUTION_ID --paths '/*'
+
