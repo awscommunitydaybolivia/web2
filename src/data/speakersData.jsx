@@ -4,7 +4,7 @@ export const speakersData = [
     jobTitle: "Job Title 1/Job Title 1",
     image: "https://cdn-icons-png.flaticon.com/512/149/149071.png",
     description: "Description for Speaker 1",
-    linkedin: "https://linkedin.com/speaker1",
+    linkedin: "https://linkedin.com/in/",
     twitter: "https://twitter.com/speaker1",
   },
   {
@@ -43,7 +43,7 @@ export const speakersData = [
     name: "Speaker 6",
     jobTitle: "Job Title 6",
     image: "https://cdn-icons-png.flaticon.com/512/149/149071.png",
-    description: "Description for Speaker 6",
+    description: "Description for Speaker 6A",
     linkedin: "https://linkedin.com/speaker1",
     twitter: "https://twitter.com/speaker1",
   },
