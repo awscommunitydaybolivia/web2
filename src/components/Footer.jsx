@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 const Footer = ({ className = "" }) => {
   return (
     <footer
-      className={`self-stretch bg-background-color-primary overflow-hidden flex flex-col items-start justify-start py-20 px-16 box-border gap-[80px] max-w-full z-[4] text-left text-base text-link-primary font-aws-cd-bo-1-desktop-body-caption-regular mq800:gap-[40px] mq800:py-[52px] mq800:px-8 mq800:box-border mq450:gap-[20px] ${className}`}
+      className={`self-stretch bg-background-color-primary overflow-hidden flex flex-col items-start justify-start py-20 px-16 box-border max-w-full z-[4] text-left text-base text-link-primary font-aws-cd-bo-1-desktop-body-caption-regular mq800:gap-[40px] mq800:py-[52px] mq800:px-8 mq800:box-border mq450:gap-[20px] ${className}`}
     >
       <div className="self-stretch flex flex-row items-start justify-between pt-0 px-0 pb-12 box-border max-w-full gap-[20px] mq1325:flex-wrap">
         <div className="w-[500px] flex flex-col items-start justify-start gap-[24px] min-w-[500px] max-w-full mq800:min-w-full mq1325:flex-1">
@@ -17,20 +17,20 @@ const Footer = ({ className = "" }) => {
             El AWS Community Day Bolivia 2024 es realizado por las comunidades:
           </div>
           <img
-            className="w-[63px] h-[27px] relative overflow-hidden shrink-0"
+            className="w-[100px] relative overflow-hidden shrink-0"
             loading="lazy"
             alt=""
-            src="/company-logo.svg"
+            src="/aws-ug-lpz.png"
           />
           <img
-            className="w-[63px] h-[27px] relative overflow-hidden shrink-0"
+            className="w-[200px] relative overflow-hidden shrink-0"
             loading="lazy"
             alt=""
-            src="/company-logo.svg"
+            src="/aws-ug-cocha.png"
           />
         </div>
-        <div className="w-[684px] flex flex-row items-start justify-start gap-[40px] min-w-[684px] max-w-full mq800:flex-wrap mq800:gap-[20px] mq1125:min-w-full mq1325:flex-1">
-          <div className="flex-1 overflow-hidden flex flex-col items-start justify-start gap-[16px] min-w-[151px]">
+        <div className="flex flex-row items-start justify-end gap-[40px] max-w-full mq800:flex-wrap mq800:gap-[20px] mq1125:min-w-full mq1325:flex-1">
+          <div className="hidden flex-1 overflow-hidden flex flex-col items-start justify-start gap-[16px] min-w-[151px]">
             <div className="self-stretch relative leading-[120%]">
               Column One
             </div>
@@ -52,7 +52,7 @@ const Footer = ({ className = "" }) => {
               </div>
             </div>
           </div>
-          <div className="flex-1 overflow-hidden flex flex-col items-start justify-start gap-[16px] min-w-[151px]">
+          <div className="hidden flex-1 overflow-hidden flex flex-col items-start justify-start gap-[16px] min-w-[151px]">
             <div className="self-stretch relative leading-[120%]">
               Column Two
             </div>
