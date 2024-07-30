@@ -22,9 +22,11 @@ const Sponsors = forwardRef(({ className = "" }, ref) => {
       {/*<SponsorsPlati />
       <SponsorsOro heading="Sponsors Oro" />
       <SponsorsPlata heading="Sponsors Plata" />*/}
-      <div className="items-center justify-center ">
-        <div className="self-stretch relative text-lg leading-[22px]">
-          ¿Te interesaría ser nuestro Sponsor y ver tu marca aquí?
+      <div className="max-w-lg mq450:max-w-60 items-center justify-center ">
+        <div className="self-stretch relative text-lg mq450:text-sm leading-[120%]">
+          <p className="m-0">
+            ¿Te interesaría ser nuestro Sponsor y ver tu marca aquí? Escríbenos para más detalles.
+          </p>
         </div>
         <div className="flex flex-row items-center justify-center pt-8 px-0 pb-0">
           <a

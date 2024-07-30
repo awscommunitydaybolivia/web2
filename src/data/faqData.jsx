@@ -41,7 +41,7 @@ export const faqData = [
   {
     question: "¿Hay oportunidades para voluntarios?",
     answer:
-      "Sí, estamos buscando voluntarios entusiasmados y comprometidos para contribuir a que el evento sea un éxito. Si te interesa, puedes ponerte en contacto con nosotros a través de nuestras redes sociales para obtener más detalles sobre cómo ser voluntario del evento.",
+      "Sí, estamos buscando voluntarios entusiasmados y comprometidos para contribuir a que el evento sea un éxito. Si te interesa, mantente atento a nuestras redes sociales, allí publicaremos la convocatoria para voluntarios.",
   },
   {
     question:
@@ -52,7 +52,7 @@ export const faqData = [
   {
     question: "¿Cómo puedo patrocinar el AWS Community Day Bolivia 2024?",
     answer:
-      "Si estás interesado en patrocinar el evento, por favor contacta a nuestro equipo organizador al email: [sponsor@awscommunity.org.bo](mailto:sponsor@awscommunity.org.bo) ",
+      "Si estás interesado en patrocinar el evento, por favor envíanos un mensaje a: [sponsor@awscommunity.org.bo](mailto:sponsor@awscommunity.org.bo) ",
   },
   {
     question: "¿Puedo proponer una charla o taller para el evento?",
