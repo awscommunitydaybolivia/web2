@@ -18,9 +18,9 @@ const Sponsors = forwardRef(({ className = "" }, ref) => {
         </h1>
       </div>
       <SponsorsDia />
-      <SponsorsPlati />
+      {/*<SponsorsPlati />
       <SponsorsOro heading="Sponsors Oro" />
-      <SponsorsPlata heading="Sponsors Plata" />
+      <SponsorsPlata heading="Sponsors Plata" />*/}
       </section>
   );
 });

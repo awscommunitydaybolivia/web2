@@ -8,7 +8,7 @@ const Beoursponsor = ({ className = "" }) => {
       <div className="self-stretch flex flex-row flex-wrap items-start justify-start gap-[80px] max-w-full mq800:gap-[20px] mq1125:gap-[40px]">
         <div className="flex-1 overflow-hidden flex flex-col items-start justify-start min-w-[312px] max-w-full">
           <h1 className="m-0 self-stretch relative text-inherit leading-[120%] font-bold font-inherit mq800:text-19xl mq800:leading-[46px] mq450:text-10xl mq450:leading-[35px]">
-            ¡Sé sponsor del AWS Community Day Bolivia 2024!
+            ¡Sé Sponsor del AWS Community Day Bolivia 2024!
           </h1>
         </div>
         <div className="flex-1 flex flex-col items-start justify-start gap-[24px] min-w-[312px] max-w-full text-lg">

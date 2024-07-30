@@ -76,7 +76,7 @@ const Footer = ({ className = "" }) => {
           </div>
           <div className="flex-1 flex flex-col items-start justify-start gap-[16px] min-w-[151px] font-aws-cd-bo-1-desktop-body-caption-bold">
             <div className="self-stretch relative leading-[150%] font-semibold">
-              Follow Us
+              Síguenos en:
             </div>
             <div className="self-stretch flex flex-col items-start justify-start text-sm font-aws-cd-bo-1-desktop-body-caption-regular">
               <a

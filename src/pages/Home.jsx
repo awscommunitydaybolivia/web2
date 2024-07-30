@@ -38,14 +38,14 @@ const Home = () => {
       <CFP />
       <Beoursponsor />
       <Map1 />
-      <Speakers ref={speakersRef}  />
+      {/*<Speakers ref={speakersRef}  />*/}
       <Sponsors ref={sponsorsRef} />
       {/*<Layout />
       <Layout />
       <Layout />*/}
-      <Agenda ref={agendaRef}/>
+      {/*<Agenda ref={agendaRef}/>*/}
       <Team ref={teamRef} />
-      {/*<FAQ />*/}
+      <FAQ />
       <Footer />
     </div>
   );

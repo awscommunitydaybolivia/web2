@@ -6,10 +6,10 @@ const Card = ({ className = "" }) => {
       className={`flex-1 flex flex-col items-center justify-start gap-[24px] min-w-[240px] max-w-[304px] text-center text-lg text-link-primary font-aws-cd-bo-1-desktop-body-caption-regular ${className}`}
     >
       <img
-        className="w-20 h-20 relative object-contain"
+        className="w-full relative object-contain"
         loading="lazy"
         alt=""
-        src="/placeholder-image-3@2x.png"
+        src="/placeholder-image-1@2x.png"
       />
       <div className="self-stretch flex flex-col items-center justify-start gap-[16px]">
         <div className="self-stretch flex flex-col items-center justify-start">

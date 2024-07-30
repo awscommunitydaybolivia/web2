@@ -2,7 +2,7 @@ export const speakersData = [
   {
     name: "Speaker 1",
     jobTitle: "Job Title 1/Job Title 1",
-    image: "https://cdn-icons-png.flaticon.com/512/149/149071.png",
+    image: "/placeholder-image-1@2x.png",
     description: "Description for Speaker 1",
     linkedin: "https://linkedin.com/in/",
     twitter: "https://twitter.com/speaker1",

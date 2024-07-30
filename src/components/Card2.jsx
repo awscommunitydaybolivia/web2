@@ -36,11 +36,19 @@ const Card2 = ({ speaker, className = "" }) => {
             src="/icon--linkedin.svg"
           />
         </a>
-        <img
-          className="h-6 w-6 relative overflow-hidden shrink-0 min-h-[24px]"
-          alt=""
-          src="/icon--x.svg"
-        />
+        <a
+          href={speaker.twitter}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="transition-all duration-300 ease-in-out hover:scale-110 group"
+        >
+          <img
+            className="h-6 w-6 relative overflow-hidden shrink-0 min-h-[24px] group-hover:filter group-hover:brightness-0 group-hover:saturate-100 group-hover:[color-scheme:dark]"
+            loading="lazy"
+            alt="YouTube"
+            src="/icon--x.svg"
+          />
+        </a>
       </div>
     </div>
   );
