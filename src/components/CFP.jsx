@@ -1,8 +1,11 @@
+import React, { forwardRef } from 'react';
 import PropTypes from "prop-types";
 
-const CFP = ({ className = "" }) => {
+
+const CFP = forwardRef(({ className = "" }, ref) => {
   return (
     <section
+    ref={ref}
       className={`self-stretch bg-primary-primary overflow-hidden flex flex-col items-center justify-start py-16 px-5 box-border max-w-full text-center text-base text-base-base-white font-aws-cd-bo-1-desktop-body-caption-regular mq1125:gap-[32px] mq450:gap-[16px] mq450:pt-[42px] mq450:pb-[42px] mq450:box-border ${className}`}
     >
       <div className="w-[768px] flex flex-col items-center justify-start gap-[24px] max-w-full">
@@ -37,7 +40,7 @@ const CFP = ({ className = "" }) => {
       </div>
     </section>
   );
-};
+});
 
 CFP.propTypes = {
   className: PropTypes.string,

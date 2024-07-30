@@ -15,6 +15,7 @@ import Footer from "../components/Footer";
 
 const Home = () => {
   const speakersRef = useRef(null);
+  const cfsRef = useRef(null);
   const sponsorsRef = useRef(null);
   const agendaRef = useRef(null);
   const teamRef = useRef(null);
@@ -29,13 +30,13 @@ const Home = () => {
   return (
     <div className="w-full relative flex flex-col items-start justify-start leading-[normal] tracking-[normal]">
       <Navbar
-        onSpeakersClick={() => scrollToSection(speakersRef)}
+        onSpeakersClick={() => scrollToSection(cfsRef)}
         onSponsorsClick={() => scrollToSection(sponsorsRef)}
         onAgendaClick={() => scrollToSection(agendaRef)}
         onTeamClick={() => scrollToSection(teamRef)}
       />
       <EventItemHeader />
-      <CFP />
+      <CFP ref={cfsRef} />
       <Beoursponsor />
       <Map1 />
       {/*<Speakers ref={speakersRef}  />*/}
