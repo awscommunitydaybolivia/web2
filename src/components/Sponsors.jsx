@@ -27,17 +27,16 @@ const Sponsors = forwardRef(({ className = "" }, ref) => {
           ¿Te interesaría ser nuestro Sponsor y ver tu marca aquí?
         </div>
         <div className="flex flex-row items-center justify-center pt-8 px-0 pb-0">
-          <button className="cursor-pointer [border:none] py-3 px-6 bg-primary-primary rounded-31xl flex flex-row items-center justify-center whitespace-nowrap hover:bg-chocolate">
-            <a
-              href="https://sessionize.com/aws-community-day-bolivia-2024/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <b className="relative text-base leading-[120%] inline-block font-aws-cd-bo-1-desktop-body-caption-regular text-background-color-primary text-left">
-                Contáctanos
-              </b>
-            </a>
-          </button>
+          <a
+            href="mailto:sponsor@awscommunity.org.bo"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="cursor-pointer [border:none] py-3 px-6 bg-primary-primary rounded-31xl flex flex-row items-center justify-center whitespace-nowrap hover:bg-chocolate no-underline inline-block"
+          >
+            <span className="relative text-base leading-[120%] font-aws-cd-bo-1-desktop-body-caption-regular text-background-color-primary text-left font-bold">
+              Contáctanos
+            </span>
+          </a>
         </div>
       </div>
     </section>

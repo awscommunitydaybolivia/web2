@@ -63,7 +63,7 @@ const Navbar = ({
             className="relative leading-[120%] inline-block min-w-[56px] hover:underline cursor-pointer"
           >
             Agenda
-          </div>*/} 
+          </div>*/}
           <div
             onClick={onTeamClick}
             className="relative leading-[120%] inline-block min-w-[51px] hover:underline cursor-pointer"
@@ -126,11 +126,16 @@ const Navbar = ({
               />
             </a>
           </div>
-          <button className="cursor-pointer [border:none] py-2 px-5 bg-primary-primary rounded-31xl flex flex-row items-center justify-center hover:bg-chocolate">
-            <b className="relative text-base leading-[120%] inline-block font-aws-cd-bo-1-desktop-body-caption-regular text-background-color-primary text-left min-w-[94px]">
+          <a
+            href="mailto:contacto@awscommunity.org.bo"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="cursor-pointer [border:none] py-2 px-5 bg-primary-primary rounded-31xl flex flex-row items-center justify-center hover:bg-chocolate no-underline inline-block"
+          >
+            <span className="relative text-base leading-[120%] inline-block font-aws-cd-bo-1-desktop-body-caption-regular text-background-color-primary text-left min-w-[94px] font-bold">
               Contáctanos
-            </b>
-          </button>
+            </span>
+          </a>
         </div>
         <div className="hidden mq1125:flex">
           <img
@@ -245,11 +250,16 @@ const Navbar = ({
                 </a>
               </div>
             </div>
-            <button className="cursor-pointer [border:none] py-2 px-5 bg-primary-primary rounded-31xl flex flex-row items-center justify-center hover:bg-chocolate mt-6">
-              <b className="relative text-base leading-[120%] inline-block font-aws-cd-bo-1-desktop-body-caption-regular text-background-color-primary text-left min-w-[94px]">
+            <a
+              href="mailto:contacto@awscommunity.org.bo"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="cursor-pointer [border:none] py-2 px-5 bg-primary-primary rounded-31xl flex flex-row items-center justify-center hover:bg-chocolate mt-6 no-underline inline-block"
+            >
+              <span className="relative text-base leading-[120%] inline-block font-aws-cd-bo-1-desktop-body-caption-regular text-background-color-primary text-left min-w-[94px] font-bold">
                 Contáctanos
-              </b>
-            </button>
+              </span>
+            </a>
           </div>
         </div>
       )}

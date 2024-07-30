@@ -15,14 +15,20 @@ const FAQ = ({ className = "" }) => {
             </h1>
             <div className="self-stretch relative text-lg tracking-[-0.02px] leading-[120%] inline-block">
               ¿Tienes alguna pregunta adicional? Puedes consultarnos en nuestras
-              redes sociales o haciendo click en el botón abajo.
+              redes sociales o envianos un mail haciendo click en el botón
+              abajo.
             </div>
           </div>
-          <button className="cursor-pointer py-2.5 px-[23px] bg-[transparent] w-[100px] rounded-31xl box-border flex flex-row items-center justify-center border-[1px] border-solid border-base-base-black hover:bg-darkslategray-500 hover:box-border hover:border-[1px] hover:border-solid hover:border-darkslategray-100">
-            <b className="relative text-base leading-[120%] inline-block font-aws-cd-bo-1-desktop-body-caption-regular text-base-base-black text-left min-w-[52px]">
-              Button
-            </b>
-          </button>
+          <a
+            href="mailto:contacto@awscommunity.org.bo"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="cursor-pointer py-2.5 px-[23px] bg-[transparent] rounded-31xl box-border flex flex-row items-center justify-center border-[1px] border-solid border-base-base-black hover:bg-darkslategray-500 hover:box-border hover:border-[1px] hover:border-solid hover:border-darkslategray-100 no-underline"
+          >
+            <span className="relative text-base leading-[120%] inline-block font-aws-cd-bo-1-desktop-body-caption-regular text-base-base-black text-left min-w-[52px] font-bold no-underline">
+              Contáctanos
+            </span>
+          </a>
         </div>
         <div className="flex-1 box-border flex flex-col items-start justify-start min-w-[476px] max-w-full text-lg border-b-[1px] border-solid border-link-primary mq800:min-w-full">
           {faqData.map((item, index) => (

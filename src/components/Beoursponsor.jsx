@@ -23,11 +23,16 @@ const Beoursponsor = ({ className = "" }) => {
             ¡Contáctanos para más detalles y participa en esta gran oportunidad!
           </div>
           <div className="flex flex-row items-center justify-start pt-4 px-0 pb-0">
-            <button className="cursor-pointer [border:none] py-3 px-6 bg-primary-primary rounded-31xl flex flex-row items-center justify-center whitespace-nowrap hover:bg-chocolate">
-              <b className="relative text-base leading-[120%] inline-block font-aws-cd-bo-1-desktop-body-caption-regular text-background-color-primary text-left min-w-[99px]">
-                Más infomación
-              </b>
-            </button>
+            <a
+              href="mailto:sponsor@awscommunity.org.bo"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="cursor-pointer [border:none] py-3 px-6 bg-primary-primary rounded-31xl flex flex-row items-center justify-center whitespace-nowrap hover:bg-chocolate no-underline inline-block"
+            >
+              <span className="relative text-base leading-[120%] font-aws-cd-bo-1-desktop-body-caption-regular text-background-color-primary text-left font-bold">
+                Contáctanos
+              </span>
+            </a>
           </div>
         </div>
       </div>

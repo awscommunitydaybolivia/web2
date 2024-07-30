@@ -70,16 +70,21 @@ const EventItemHeader = ({ className = "" }) => {
         </div>
         <div className="flex flex-col items-center justify-center py-0 px-[63px] box-border max-w-full mq800:pl-[31px] mq800:pr-[31px] mq800:box-border">
           <div className="flex flex-row items-start justify-start gap-[16px] mq450:flex-wrap mq450:justify-center ">
-            <button className="cursor-pointer [border:none] py-3 px-6 bg-primary-primary rounded-31xl flex flex-row items-center justify-center hover:bg-chocolate">
-              <b className="relative text-base leading-[120%] inline-block font-aws-cd-bo-1-desktop-body-caption-regular text-background-color-primary text-left min-w-[86px]">
+            <a
+              href=""
+              target="_blank"
+              rel="noopener noreferrer"
+              className="cursor-pointer [border:none] py-3 px-6 bg-primary-primary rounded-31xl flex flex-row items-center justify-center whitespace-nowrap hover:bg-chocolate no-underline inline-block"
+            >
+              <span className="relative text-base leading-[120%] font-aws-cd-bo-1-desktop-body-caption-regular text-background-color-primary text-left font-bold">
                 ¡Regístrate!
-              </b>
-            </button>
-            <button className="cursor-pointer py-2.5 px-[23px] bg-[transparent] rounded-31xl flex flex-row items-center justify-center whitespace-nowrap border-[1px] border-solid border-background-color-primary hover:bg-gainsboro-200 hover:box-border hover:border-[1px] hover:border-solid hover:border-gainsboro-100">
+              </span>
+            </a>
+            {/*<button className="cursor-pointer py-2.5 px-[23px] bg-[transparent] rounded-31xl flex flex-row items-center justify-center whitespace-nowrap border-[1px] border-solid border-background-color-primary hover:bg-gainsboro-200 hover:box-border hover:border-[1px] hover:border-solid hover:border-gainsboro-100">
               <b className="relative text-base leading-[120%] font-aws-cd-bo-1-desktop-body-caption-regular text-background-color-primary text-left">
                 ¡Tengo una consulta!
               </b>
-            </button>
+            </button>*/}
           </div>
         </div>
       </div>
