@@ -32,23 +32,23 @@ const Footer = ({ className = "" }) => {
         <div className="w-[684px] flex flex-row items-start justify-start gap-[40px] min-w-[684px] max-w-full mq800:flex-wrap mq800:gap-[20px] mq1125:min-w-full mq1325:flex-1">
           <div className="flex-1 overflow-hidden flex flex-col items-start justify-start gap-[16px] min-w-[151px]">
             <div className="self-stretch relative leading-[120%]">
-              Column Two
+              Column One
             </div>
             <div className="self-stretch flex flex-col items-start justify-start text-sm">
               <div className="self-stretch flex flex-row items-start justify-start py-2 px-0">
-                <div className="flex-1 relative leading-[17px]">Link Six</div>
+                <div className="flex-1 relative leading-[17px]">Link One</div>
               </div>
               <div className="self-stretch flex flex-row items-start justify-start py-2 px-0">
-                <div className="flex-1 relative leading-[17px]">Link Seven</div>
+                <div className="flex-1 relative leading-[17px]">Link Two</div>
               </div>
               <div className="self-stretch flex flex-row items-start justify-start py-2 px-0">
-                <div className="flex-1 relative leading-[17px]">Link Eight</div>
+                <div className="flex-1 relative leading-[17px]">Link Three</div>
               </div>
               <div className="self-stretch flex flex-row items-start justify-start py-2 px-0">
-                <div className="flex-1 relative leading-[17px]">Link Nine</div>
+                <div className="flex-1 relative leading-[17px]">Link Four</div>
               </div>
               <div className="self-stretch flex flex-row items-start justify-start py-2 px-0">
-                <div className="flex-1 relative leading-[17px]">Link Ten</div>
+                <div className="flex-1 relative leading-[17px]">Link Five</div>
               </div>
             </div>
           </div>
