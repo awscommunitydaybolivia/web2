@@ -1,10 +1,13 @@
+import React, { forwardRef } from "react";
+
 import AccordionItem from "./AccordionItem";
 import PropTypes from "prop-types";
 import { faqData } from "../data/faqData";
 
-const FAQ = ({ className = "" }) => {
+const FAQ = forwardRef(({ className = "" }, ref) => {
   return (
     <section
+      ref={ref}
       className={`self-stretch bg-background-color-primary overflow-hidden flex flex-col items-start justify-start py-28 px-16 box-border max-w-full z-[2] text-left text-29xl text-link-primary font-aws-cd-bo-1-desktop-body-caption-regular mq800:gap-[40px] mq800:py-[73px] mq800:px-8 mq800:box-border mq450:gap-[20px] ${className}`}
     >
       <div className="self-stretch flex flex-row items-start justify-start gap-[80px] max-w-full mq800:gap-[40px] mq450:gap-[20px] mq1325:flex-wrap">
@@ -15,8 +18,8 @@ const FAQ = ({ className = "" }) => {
             </h1>
             <div className="self-stretch relative text-lg tracking-[-0.02px] leading-[120%] inline-block">
               ¿Tienes alguna pregunta adicional? Puedes consultarnos en nuestras
-              redes sociales o envianos un mail haciendo click en el botón
-              abajo.
+              redes sociales o envianos un mail haciendo clic en el botón
+              debajo.
             </div>
           </div>
           <a
@@ -42,7 +45,7 @@ const FAQ = ({ className = "" }) => {
       </div>
     </section>
   );
-};
+});
 
 FAQ.propTypes = {
   className: PropTypes.string,

@@ -19,6 +19,7 @@ const Home = () => {
   const sponsorsRef = useRef(null);
   const agendaRef = useRef(null);
   const teamRef = useRef(null);
+  const faqRef = useRef(null);
 
   const scrollToSection = (elementRef) => {
     window.scrollTo({
@@ -34,6 +35,7 @@ const Home = () => {
         onSponsorsClick={() => scrollToSection(sponsorsRef)}
         onAgendaClick={() => scrollToSection(agendaRef)}
         onTeamClick={() => scrollToSection(teamRef)}
+        onFAQClick={() => scrollToSection(faqRef)}
       />
       <EventItemHeader />
       <CFP ref={cfsRef} />
@@ -45,8 +47,8 @@ const Home = () => {
       <Layout />
       <Layout />*/}
       {/*<Agenda ref={agendaRef}/>*/}
-      <Team ref={teamRef} />
-      <FAQ />
+      {/*<Team ref={teamRef} />*/}
+      <FAQ ref={faqRef} />
       <Footer />
     </div>
   );
