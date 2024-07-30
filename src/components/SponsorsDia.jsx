@@ -9,16 +9,28 @@ const SponsorsDia = ({ className = "" }) => {
         Sponsors Diamante
       </h3>
       <div className="flex flex-row items-center justify-center py-0 px-[94px] box-border gap-[48px] max-w-full mq800:flex-wrap mq800:gap-[24px] mq800:pl-[47px] mq800:pr-[47px] mq800:box-border mq450:pl-5 mq450:pr-5 mq450:box-border">
-        <img
-          className="self-stretch w-[160px] relative max-h-full overflow-hidden shrink-0 min-h-[56px]"
-          alt=""
-          src="/company-logo.svg"
-        />
-        <img
-          className="self-stretch w-[160px] relative max-h-full overflow-hidden shrink-0 min-h-[56px]"
-          alt=""
-          src="/company-logo.svg"
-        />
+        <a
+          href="https://aws.amazon.com/es/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img
+            className="self-stretch w-[160px] relative max-h-full overflow-hidden shrink-0 min-h-[56px]"
+            alt=""
+            src="/aws-logo.svg"
+          />
+        </a>
+        <a
+          href="https://lpz.ucb.edu.bo/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img
+            className="self-stretch w-[250px] relative max-h-full overflow-hidden shrink-0 min-h-[56px]"
+            alt=""
+            src="https://lpz.ucb.edu.bo/wp-content/uploads/2021/12/Colores-Horizontal-1.png"
+          />
+        </a>
       </div>
     </div>
   );

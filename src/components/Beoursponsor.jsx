@@ -13,15 +13,14 @@ const Beoursponsor = ({ className = "" }) => {
         </div>
         <div className="flex-1 flex flex-col items-start justify-start gap-[24px] min-w-[312px] max-w-full text-lg">
           <div className="self-stretch relative leading-[120%]">
-          ¿Tu empresa está en el mundo de la tecnología o el cloud?
-          <br></br>
-          <br></br>
-
-          Patrocina el AWS Community Day Bolivia y conecta con los mejores del sector.
-          <br></br>
-          <br></br>
-
-          ¡Contáctanos para más detalles y participa en esta gran oportunidad!
+            ¿Tu empresa está en el mundo de la tecnología o el cloud?
+            <br></br>
+            <br></br>
+            Patrocina el AWS Community Day Bolivia y conecta con los mejores del
+            sector.
+            <br></br>
+            <br></br>
+            ¡Contáctanos para más detalles y participa en esta gran oportunidad!
           </div>
           <div className="flex flex-row items-center justify-start pt-4 px-0 pb-0">
             <button className="cursor-pointer [border:none] py-3 px-6 bg-primary-primary rounded-31xl flex flex-row items-center justify-center whitespace-nowrap hover:bg-chocolate">
