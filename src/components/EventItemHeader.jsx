@@ -71,7 +71,7 @@ const EventItemHeader = ({ className = "" }) => {
         <div className="flex flex-col items-center justify-center py-0 px-[63px] box-border max-w-full mq800:pl-[31px] mq800:pr-[31px] mq800:box-border">
           <div className="flex flex-row items-start justify-start gap-[16px] mq450:flex-wrap mq450:justify-center ">
             <a
-              href=""
+              href="https://www.eventbrite.com/e/aws-community-day-bolivia-2024-tickets-969150825207"
               target="_blank"
               rel="noopener noreferrer"
               className="cursor-pointer [border:none] py-3 px-6 bg-primary-primary rounded-31xl flex flex-row items-center justify-center whitespace-nowrap hover:bg-chocolate no-underline inline-block"

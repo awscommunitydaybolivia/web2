@@ -59,4 +59,9 @@ export const faqData = [
     answer:
       "Sí, estamos abiertos a propuestas de charlas y talleres hasta el 23 de Agosto de 2024. Puedes enviar tu propuesta a través de nuestro formulario de propuestas haciendo click [aquí](https://sessionize.com/aws-community-day-bolivia-2024/).",
   },
+  {
+    question: "Si tengo más consultas, ¿cómo puedo comunicarme con los organizadores?",
+    answer:
+      "Puedes mandarnos un mensaje por cualquiera de nuestras redes sociales: [Facebook](https://www.facebook.com/awscommunitydaybolivia), [Instagram](https://www.instagram.com/awscommunitydaybolivia), [LinkedIn](linkedin.com/company/aws-community-day-bolivia/) o escribirnos al correo: [contacto@awscommunity.org.bo](mailto:contacto@awscommunity.org.bo). Haremos todo lo posible para responder lo mas pronto posible. 🙂",
+  },
 ];
