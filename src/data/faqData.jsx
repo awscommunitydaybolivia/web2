@@ -62,6 +62,6 @@ export const faqData = [
   {
     question: "Si tengo más consultas, ¿cómo puedo comunicarme con los organizadores?",
     answer:
-      "Puedes mandarnos un mensaje por cualquiera de nuestras redes sociales: [Facebook](https://www.facebook.com/awscommunitydaybolivia), [Instagram](https://www.instagram.com/awscommunitydaybolivia), [LinkedIn](linkedin.com/company/aws-community-day-bolivia/) o escribirnos al correo: [contacto@awscommunity.org.bo](mailto:contacto@awscommunity.org.bo). Haremos todo lo posible para responder lo mas pronto posible. 🙂",
+      "Puedes mandarnos un mensaje por cualquiera de nuestras redes sociales: [Facebook](https://www.facebook.com/awscommunitydaybolivia), [Instagram](https://www.instagram.com/awscommunitydaybolivia), [LinkedIn](https://www.linkedin.com/company/aws-community-day-bolivia/) o escribirnos al correo: [contacto@awscommunity.org.bo](mailto:contacto@awscommunity.org.bo). Haremos todo lo posible para responder lo mas pronto posible. 🙂",
   },
 ];
