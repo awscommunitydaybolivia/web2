@@ -14,13 +14,11 @@ const Card2 = ({ speaker, className = "" }) => {
       <div className="self-stretch flex flex-col items-center justify-start gap-[16px]">
         <div className="self-stretch flex flex-col items-center justify-start">
           <b className="self-stretch relative leading-[250%]">{speaker.name}</b>
-          <div className="self-stretch relative leading-[150%] font-medium">
+          <div className="self-stretch relative leading-[150%]">
             {speaker.jobTitle}
           </div>
         </div>
-        <div className="self-stretch relative text-base leading-[120%]">
-          {speaker.description}
-        </div>
+
       </div>
       <div className="flex flex-row items-start justify-start gap-[14px]">
         <a
@@ -36,7 +34,8 @@ const Card2 = ({ speaker, className = "" }) => {
             src="/icon--linkedin.svg"
           />
         </a>
-        <a
+        {speaker.twitter && (
+        <a  
           href={speaker.twitter}
           target="_blank"
           rel="noopener noreferrer"
@@ -45,10 +44,11 @@ const Card2 = ({ speaker, className = "" }) => {
           <img
             className="h-6 w-6 relative overflow-hidden shrink-0 min-h-[24px] group-hover:filter group-hover:brightness-0 group-hover:saturate-100 group-hover:[color-scheme:dark]"
             loading="lazy"
-            alt="YouTube"
+            alt="X (Twitter)"
             src="/icon--x.svg"
           />
         </a>
+      )}
       </div>
     </div>
   );
@@ -59,7 +59,6 @@ Card2.propTypes = {
     name: PropTypes.string.isRequired,
     jobTitle: PropTypes.string.isRequired,
     image: PropTypes.string.isRequired,
-    description: PropTypes.string.isRequired,
     linkedin: PropTypes.string,
     twitter: PropTypes.string,
   }),

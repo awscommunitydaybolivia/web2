@@ -37,11 +37,11 @@ const Home = () => {
         onTeamClick={() => scrollToSection(teamRef)}
         onFAQClick={() => scrollToSection(faqRef)}
       />
-      <EventItemHeader />
+      <EventItemHeader  />
       <CFP ref={cfsRef} />
       <Beoursponsor />
       <Map1 />
-      {/*<Speakers ref={speakersRef}  />*/}
+      <Speakers />
       <Sponsors ref={sponsorsRef} />
       {/*<Layout />
       <Layout />
