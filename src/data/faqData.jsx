@@ -39,9 +39,9 @@ export const faqData = [
     answer: "Sí, se proporcionarán refrigerios durante el evento.",
   },
   {
-    question: "¿Hay oportunidades para voluntarios?",
+    question: "¿Hay oportunidades para voluntarios y voluntarias?",
     answer:
-      "Sí, estamos buscando voluntarios entusiasmados y comprometidos para contribuir a que el evento sea un éxito. Si te interesa, mantente atento a nuestras redes sociales, allí publicaremos la convocatoria para voluntarios.",
+      "Sí, estamos buscando voluntarios y voluntarias entusiasmados y comprometidos para contribuir a que el evento sea un éxito. Si te interesa, mantente atento a nuestras redes sociales, allí publicaremos la convocatoria para voluntarios.",
   },
   {
     question:
@@ -62,6 +62,6 @@ export const faqData = [
   {
     question: "Si tengo más consultas, ¿cómo puedo comunicarme con los organizadores?",
     answer:
-      "Puedes mandarnos un mensaje por cualquiera de nuestras redes sociales: [Facebook](https://www.facebook.com/awscommunitydaybolivia), [Instagram](https://www.instagram.com/awscommunitydaybolivia), [LinkedIn](https://www.linkedin.com/company/aws-community-day-bolivia/) o escribirnos al correo: [contacto@awscommunity.org.bo](mailto:contacto@awscommunity.org.bo). Haremos todo lo posible para responder lo mas pronto posible. 🙂",
+      "Puedes mandarnos un mensaje o puedes etiquetarnos en cualquiera de nuestras redes sociales.: [Facebook](https://www.facebook.com/awscommunitydaybolivia), [Instagram](https://www.instagram.com/awscommunitydaybolivia), [LinkedIn](https://www.linkedin.com/company/aws-community-day-bolivia/) o escribirnos al correo: [contacto@awscommunity.org.bo](mailto:contacto@awscommunity.org.bo). Haremos todo lo posible para responder lo mas pronto posible. 🙂",
   },
 ];

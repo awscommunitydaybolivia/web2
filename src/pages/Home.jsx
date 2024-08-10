@@ -37,7 +37,7 @@ const Home = () => {
         onTeamClick={() => scrollToSection(teamRef)}
         onFAQClick={() => scrollToSection(faqRef)}
       />
-      <EventItemHeader  />
+      <EventItemHeader onConsultaClick={() => scrollToSection(faqRef)} />
       <CFP ref={cfsRef} />
       <Beoursponsor />
       <Map1 />

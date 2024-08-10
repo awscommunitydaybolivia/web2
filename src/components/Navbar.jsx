@@ -137,7 +137,7 @@ const Navbar = ({
             href="mailto:contacto@awscommunity.org.bo"
             target="_blank"
             rel="noopener noreferrer"
-            className="cursor-pointer [border:none] py-2 px-5 bg-primary-primary rounded-31xl flex flex-row items-center justify-center hover:bg-chocolate no-underline inline-block"
+            className="cursor-pointer [border:none] py-2 px-5 bg-primary-primary rounded-31xl flex flex-row items-center justify-center hover:bg-chocolate no-underline "
           >
             <span className="relative text-base leading-[120%] inline-block font-aws-cd-bo-1-desktop-body-caption-regular text-background-color-primary text-left min-w-[94px] font-bold">
               Contáctanos
@@ -267,7 +267,7 @@ const Navbar = ({
               href="mailto:contacto@awscommunity.org.bo"
               target="_blank"
               rel="noopener noreferrer"
-              className="cursor-pointer [border:none] py-2 px-5 bg-primary-primary rounded-31xl flex flex-row items-center justify-center hover:bg-chocolate mt-6 no-underline inline-block"
+              className="cursor-pointer [border:none] py-2 px-5 bg-primary-primary rounded-31xl flex flex-row items-center justify-center hover:bg-chocolate mt-6 no-underline "
             >
               <span className="relative text-base leading-[120%] inline-block font-aws-cd-bo-1-desktop-body-caption-regular text-background-color-primary text-left min-w-[94px] font-bold">
                 Contáctanos
