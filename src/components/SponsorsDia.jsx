@@ -31,6 +31,17 @@ const SponsorsDia = ({ className = "" }) => {
             src="https://lpz.ucb.edu.bo/wp-content/uploads/2021/12/Colores-Horizontal-1.png"
           />
         </a>
+        <a
+          href="https://www.encora.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img
+            className="self-stretch w-[250px] relative max-h-full overflow-hidden shrink-0 min-h-[56px]"
+            alt=""
+            src="https://www.encora.com/hubfs/Website%20v2%20Assets/Homepage/Nav/Encora%20Nav.svg"
+          />
+        </a>
       </div>
     </div>
   );

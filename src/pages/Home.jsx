@@ -47,7 +47,7 @@ const Home = () => {
       <Layout />
       <Layout />*/}
       {/*<Agenda ref={agendaRef}/>*/}
-      {/*<Team ref={teamRef} />*/}
+      <Team ref={teamRef} />
       <FAQ ref={faqRef} />
       <Footer />
     </div>

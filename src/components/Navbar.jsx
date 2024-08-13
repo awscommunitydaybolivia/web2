@@ -65,12 +65,12 @@ const Navbar = ({
           >
             Agenda
           </div>*/}
-          {/*<div
+          <div
             onClick={onTeamClick}
             className="relative leading-[120%] inline-block min-w-[51px] hover:underline cursor-pointer"
           >
             Equipo
-          </div>*/}
+          </div>
           <div
             onClick={onFAQClick}
             className="relative leading-[120%] inline-block min-w-[81px] hover:underline cursor-pointer"
@@ -198,12 +198,12 @@ const Navbar = ({
               >
                 Agenda
               </div>*/}
-              {/*<div
+              <div
                 className="relative leading-[180%] py-2 hover:underline cursor-pointer"
                 onClick={handleNavClick(onTeamClick)}
               >
                 Equipo
-              </div>*/}
+              </div>
               <div
                 className="relative leading-[180%] py-2 hover:underline cursor-pointer"
                 onClick={handleNavClick(onFAQClick)}
