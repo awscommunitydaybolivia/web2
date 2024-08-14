@@ -3,23 +3,20 @@ import PropTypes from "prop-types";
 const Card = ({ team, className = "" }) => {
   return (
     <div
-      className={`flex-1 flex flex-col items-center justify-start gap-[24px] min-w-[240px] max-w-[304px] text-center text-lg text-link-primary font-aws-cd-bo-1-desktop-body-caption-regular ${className}`}
+      className={`flex-1 flex flex-col items-center justify-start gap-[16px] min-w-[240px] max-w-[304px] text-center text-lg text-link-primary font-aws-cd-bo-1-desktop-body-caption-regular ${className}`}
     >
       <img
-        className="h-[270px] max-w-[270px] relative object-contain"
+        className="h-[270px] max-w-[270px] relative object-contain rounded-full"
         loading="lazy"
         alt={team.name}
         src={team.image}
       />
       <div className="self-stretch flex flex-col items-center justify-start gap-[16px]">
         <div className="self-stretch flex flex-col items-center justify-start">
-          <b className="self-stretch relative leading-[150%]">{team.name}</b>
+          <b className="self-stretch relative leading-[200%]">{team.name}</b>
           <div className="self-stretch relative leading-[150%]">{team.jobTitle}</div>
+          <div className="self-stretch relative leading-[150%]">{team.ug}</div>
         </div>
-        {/*<div className="self-stretch relative text-base leading-[150%]">
-          LLLorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-          varius enim in eros elementum tristique.
-        </div>*/}
       </div>
       <div className="flex flex-row items-start justify-start gap-[14px]">
         <a
@@ -75,7 +72,8 @@ Card.propTypes = {
     name: PropTypes.string.isRequired,
     jobTitle: PropTypes.string.isRequired,
     image: PropTypes.string.isRequired,
-    linkedin: PropTypes.string,
+    ug: PropTypes.string.isRequired,
+    linkedin: PropTypes.string.isRequired,
     twitter: PropTypes.string,
     instagram: PropTypes.string,
   }),

@@ -26,7 +26,7 @@ const FAQ = forwardRef(({ className = "" }, ref) => {
             href="mailto:contacto@awscommunity.org.bo"
             target="_blank"
             rel="noopener noreferrer"
-            className="cursor-pointer py-2.5 px-[23px] bg-[transparent] rounded-31xl box-border flex flex-row items-center justify-center border-[1px] border-solid border-base-base-black hover:bg-darkslategray-500 hover:box-border hover:border-[1px] hover:border-solid hover:border-darkslategray-100 no-underline"
+            className="cursor-pointer py-2.5 px-[23px] bg-[transparent] rounded-31xl box-border flex flex-row items-center justify-center border-[1px] border-solid border-base-base-black hover:bg-darkslategray-500 hover:border-darkslategray-100 focus:outline-none focus:ring-2 focus:ring-darkslategray-100 no-underline"
           >
             <span className="relative text-base leading-[120%] inline-block font-aws-cd-bo-1-desktop-body-caption-regular text-base-base-black text-left min-w-[52px] font-bold no-underline">
               Contáctanos

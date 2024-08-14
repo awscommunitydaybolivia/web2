@@ -22,7 +22,7 @@ const Speakers = forwardRef(({ className = "" }, ref) => {
       </div>
       <div className="self-stretch flex flex-col items-center justify-start text-lg mq800:gap-[48px] mq450:gap-[24px]">
         <div className="self-stretch flex flex-col items-start justify-start mq800:gap-[32px] mq450:gap-[16px]">
-          <div className="self-stretch grid flex-row items-start justify-start gap-[32px] grid-cols-[repeat(4,_minmax(228px,_1fr))] mq800:gap-[16px] mq800:grid-cols-[minmax(228px,_1fr)] mq1125:justify-center mq1125:grid-cols-[repeat(2,_minmax(228px,_395px))]">
+          <div className="self-stretch grid flex-row items-start justify-start gap-[32px] grid-cols-[repeat(4,_minmax(228px,_1fr))] mq800:gap-[40px] mq800:grid-cols-[minmax(228px,_1fr)] mq1125:justify-center mq1125:grid-cols-[repeat(2,_minmax(228px,_395px))]">
             {speakersData.map((speaker, index) => (
               <Card2 key={index} speaker={speaker} />
             ))}

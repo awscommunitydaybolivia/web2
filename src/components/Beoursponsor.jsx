@@ -27,7 +27,7 @@ const Beoursponsor = ({ className = "" }) => {
               href="mailto:sponsor@awscommunity.org.bo"
               target="_blank"
               rel="noopener noreferrer"
-              className="cursor-pointer [border:none] py-3 px-6 bg-primary-primary rounded-31xl flex flex-row items-center justify-center whitespace-nowrap hover:bg-chocolate no-underline inline-block"
+              className="cursor-pointer py-3 px-6 bg-primary-primary rounded-31xl flex flex-row items-center justify-center whitespace-nowrap hover:bg-chocolate focus:outline-none focus:ring-2 focus:ring-gainsboro-100 no-underline"
             >
               <span className="relative text-base leading-[120%] font-aws-cd-bo-1-desktop-body-caption-regular text-background-color-primary text-left font-bold">
                 Contáctanos

@@ -119,7 +119,7 @@ const Navbar = ({
                 src="/icon--linkedin.svg"
               />
             </a>
-            <a
+            {/*<a
               href="https://www.youtube.com/"
               target="_blank"
               rel="noopener noreferrer"
@@ -131,7 +131,7 @@ const Navbar = ({
                 alt="YouTube"
                 src="/icon--youtube.svg"
               />
-            </a>
+            </a>*/}
           </div>
           <a
             href="mailto:contacto@awscommunity.org.bo"
@@ -158,7 +158,7 @@ const Navbar = ({
           ref={menuRef}
           className="fixed inset-0 bg-background-color-primary bg-opacity-85 z-[98] flex"
         >
-          <div className="bg-white w-[90%] h-[99%] flex flex-col py-4 px-6">
+          <div className="bg-white w-[77%] h-[99%] flex flex-col py-4 px-6">
             <div className="flex items-center justify-between pt-8 pb-8">
               <img
                 className="h-[45px] mq450:h-[30px] relative overflow-hidden"
@@ -173,7 +173,7 @@ const Navbar = ({
                 onClick={toggleMenu}
               />
             </div>
-            <nav className="flex flex-col gap-6 text-left text-base text-link-primary font-aws-cd-bo-1-desktop-body-caption-regular">
+            <nav className="flex flex-col gap-6 text-left text-lg text-link-primary font-aws-cd-bo-1-desktop-body-caption-regular">
               <div
                 className="relative leading-[180%] py-2 hover:underline cursor-pointer"
                 onClick={handleNavClick()}
@@ -211,15 +211,26 @@ const Navbar = ({
                 Preguntas Frecuentes
               </div>
             </nav>
-            <div className="flex flex-row items-start justify-start gap-[12px] mt-6">
-              <div className="flex-1 flex flex-row items-center justify-start box-border gap-[12px] min-w-[281px] mq450:box-border">
+            <a
+              href="mailto:contacto@awscommunity.org.bo"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="cursor-pointer [border:none]  py-4 px-5 bg-primary-primary rounded-31xl flex flex-row items-center justify-center hover:bg-chocolate mt-6 no-underline "
+            >
+              <span className="relative text-lg leading-[120%] inline-block font-aws-cd-bo-1-desktop-body-caption-regular text-background-color-primary text-left min-w-[94px] font-bold">
+                Contáctanos
+              </span>
+            </a>
+            <div className="flex flex-row items-center justify-center gap-[12px] mt-auto pb-10">
+              <div className="flex flex-row items-center justify-center box-border gap-[32px] min-w-[280px]">
                 <a
                   href="https://www.facebook.com/awscommunitydaybolivia/"
                   target="_blank"
                   rel="noopener noreferrer"
+                  className="relative w-[48px] h-[48px] p-2 rounded-full border-[1px] border-solid border-primary-primary hover:scale-110 transition-transform duration-300"
                 >
                   <img
-                    className="h-6 w-6 relative overflow-hidden shrink-0 min-h-[24px]"
+                    className="h-12 w-12"
                     loading="lazy"
                     alt="Facebook"
                     src="/icon--facebook.svg"
@@ -229,9 +240,10 @@ const Navbar = ({
                   href="https://www.instagram.com/awscommunitydaybolivia"
                   target="_blank"
                   rel="noopener noreferrer"
+                  className="relative w-[48px] h-[48px] p-2 rounded-full border-[1px] border-solid border-primary-primary hover:scale-110 transition-transform duration-300"
                 >
                   <img
-                    className="h-6 w-6 relative overflow-hidden shrink-0 min-h-[24px]"
+                    className="h-12 w-12"
                     loading="lazy"
                     alt="Instagram"
                     src="/icon--instagram.svg"
@@ -241,38 +253,17 @@ const Navbar = ({
                   href="https://www.linkedin.com/company/aws-community-day-bolivia/"
                   target="_blank"
                   rel="noopener noreferrer"
+                  className="relative w-[48px] h-[48px] p-2 rounded-full border-[1px] border-solid border-primary-primary hover:scale-110 transition-transform duration-300"
                 >
                   <img
-                    className="h-6 w-6 relative overflow-hidden shrink-0 min-h-[24px]"
+                    className="h-12 w-12"
                     loading="lazy"
                     alt="LinkedIn"
                     src="/icon--linkedin.svg"
                   />
                 </a>
-                <a
-                  href="https://www.youtube.com/channel/YourChannelHere"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <img
-                    className="h-6 w-6 relative overflow-hidden shrink-0 min-h-[24px]"
-                    loading="lazy"
-                    alt="YouTube"
-                    src="/icon--youtube.svg"
-                  />
-                </a>
               </div>
             </div>
-            <a
-              href="mailto:contacto@awscommunity.org.bo"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="cursor-pointer [border:none] py-2 px-5 bg-primary-primary rounded-31xl flex flex-row items-center justify-center hover:bg-chocolate mt-6 no-underline "
-            >
-              <span className="relative text-base leading-[120%] inline-block font-aws-cd-bo-1-desktop-body-caption-regular text-background-color-primary text-left min-w-[94px] font-bold">
-                Contáctanos
-              </span>
-            </a>
           </div>
         </div>
       )}

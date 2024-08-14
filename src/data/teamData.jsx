@@ -1,64 +1,68 @@
 export const teamData = [
   {
     name: "Laura Sainz",
-    jobTitle: "Senior Developer Advocate en AWS / AWS User Group La Paz",
+    jobTitle: "",
     image:
-      "https://aws-cd-bo-web.s3.amazonaws.com/aws-cd-bo-team/laura.jpeg",
-    description: "Description for Speaker 1",
+      "https://aws-cd-bo-web.s3.amazonaws.com/aws-cd-bo-team/aws-cd-bo-team-07.webp",
+    ug: "AWS User Group La Paz",
     linkedin: "https://www.linkedin.com/in/",
-    twitter: "https://x.com/",
-    instagram: "https://www.instagram.com/"
   },
   {
     name: "Juan Jose Miranda",
-    jobTitle: "Senior Developer Advocate en AWS / AWS User Group La Paz ",
+    jobTitle: "",
     image:
-      "https://aws-cd-bo-web.s3.amazonaws.com/aws-cd-bo-team/juan_jose_miranda.jpeg",
-    description: "Description for Speaker 1",
+      "https://aws-cd-bo-web.s3.amazonaws.com/aws-cd-bo-team/aws-cd-bo-team-06.webp",
+    ug: "AWS User Group La Paz",
     linkedin: "https://www.linkedin.com/in/",
   },
   {
     name: "Sergio Rodríguez",
-    jobTitle: "Senior Developer Advocate en AWS / AWS User Group Cochabamba ",
+    jobTitle: "",
     image:
-      "https://aws-cd-bo-web.s3.amazonaws.com/aws-cd-bo-team/sergio_rodriguez.jpg",
-    description: "Description for Speaker 1",
+      "https://aws-cd-bo-web.s3.amazonaws.com/aws-cd-bo-team/aws-cd-bo-team-05.webp",
+    ug: "AWS User Group Cochabamba",
     linkedin: "https://www.linkedin.com/in/",
     twitter: "https://x.com/",
   },
   {
     name: "Afu Tse",
-    jobTitle: "Senior Developer Advocate en AWS / AWS User Group Cochabamba ",
+    jobTitle: "",
     image:
-      "https://aws-cd-bo-web.s3.amazonaws.com/aws-cd-bo-team/afu_tse.jpg",
-    description: "Description for Speaker 1",
+      "https://aws-cd-bo-web.s3.amazonaws.com/aws-cd-bo-team/aws-cd-bo-team-04.webp",
+    ug: "AWS User Group Cochabamba",
     linkedin: "https://www.linkedin.com/in/",
-    twitter: "https://x.com/",
   },
   {
     name: "Sara Salazar",
-    jobTitle: "Senior Developer Advocate en AWS / AWS User Group La Paz ",
+    jobTitle: "",
     image:
-      "https://aws-cd-bo-web.s3.amazonaws.com/aws-cd-bo-team/Sara_Salazar.jpeg",
-    description: "Description for Speaker 1",
+      "https://aws-cd-bo-web.s3.amazonaws.com/aws-cd-bo-team/aws-cd-bo-team-03.webp",
+    ug: "AWS User Group La Paz",
     linkedin: "https://www.linkedin.com/in/",
-    instagram: "https://www.instagram.com/"
   },
   {
     name: "Monica Canaza",
-    jobTitle: "Senior Developer Advocate en AWS / AWS User Group La Paz ",
+    jobTitle: "Software Engineer",
     image:
-      "https://aws-cd-bo-web.s3.amazonaws.com/aws-cd-bo-team/monica_canaza.jpg",
-    description: "Description for Speaker 1",
-    linkedin: "https://www.linkedin.com/in/",
+      "https://aws-cd-bo-web.s3.amazonaws.com/aws-cd-bo-team/aws-cd-bo-team-02.webp",
+    ug: "AWS User Group La Paz ",
+    linkedin: "https://www.linkedin.com/in/monica-canaza",
+    instagram: "https://www.instagram.com/moni_hikari/"
   },
   {
     name: "Sergio Guillen",
-    jobTitle: "Senior Developer Advocate en AWS / AWS User Group La Paz ",
+    jobTitle: "",
     image:
-      "https://aws-cd-bo-web.s3.amazonaws.com/aws-cd-bo-team/Sergio_Guillen.jpeg",
-    description: "Description for Speaker 1",
+      "https://aws-cd-bo-web.s3.amazonaws.com/aws-cd-bo-team/aws-cd-bo-team-01.webp",
+    ug: "AWS User Group La Paz",
     linkedin: "https://www.linkedin.com/in/",
   },
-  
+  {
+    name: "Gonzalo Alfaro",
+    jobTitle: "Product Manager",
+    image:
+      "https://aws-cd-bo-web.s3.amazonaws.com/aws-cd-bo-team/aws-cd-bo-team-08.webp",
+    ug: "AWS User Group Cochabamba",
+    linkedin: "https://www.linkedin.com/in/gonzaloalfarof",
+  },
 ];
