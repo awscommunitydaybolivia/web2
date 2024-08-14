@@ -59,7 +59,7 @@ export const teamData = [
   },
   {
     name: "Gonzalo Alfaro",
-    jobTitle: "Product Manager",
+    jobTitle: "Product Manager/Designer",
     image:
       "https://aws-cd-bo-web.s3.amazonaws.com/aws-cd-bo-team/aws-cd-bo-team-08.webp",
     ug: "AWS User Group Cochabamba",
