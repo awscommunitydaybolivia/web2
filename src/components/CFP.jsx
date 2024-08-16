@@ -29,11 +29,14 @@ const CFP = forwardRef(({ className = "" }, ref) => {
             href="https://sessionize.com/aws-community-day-bolivia-2024/"
             target="_blank"
             rel="noopener noreferrer"
-            className="cursor-pointer py-2.5 px-[23px] bg-[transparent] rounded-31xl flex flex-row items-center justify-center whitespace-nowrap border-[1px] border-solid border-background-color-primary hover:bg-gainsboro-200 hover:border-gainsboro-100 focus:outline-none focus:ring-2 focus:ring-gainsboro-100 no-underline"
+            className="cursor-pointer py-2.5 px-[23px] bg-[transparent] rounded-31xl flex flex-row items-center justify-center whitespace-nowrap border-[1px] border-solid border-background-color-primary hover:bg-gainsboro-200 hover:border-gainsboro-100 focus:outline-none focus:ring-2 focus:ring-gainsboro-100 no-underline relative"
           >
             <b className="relative text-base leading-[120%] font-aws-cd-bo-1-desktop-body-caption-regular text-background-color-primary text-left">
               ¡Quiero ser Speaker!
             </b>
+            <span className="absolute top-0 right-0 transform translate-x-1/2 -translate-y-1/2 bg-red-500 text-white text-sm px-4 py-1 rounded-full ">
+              ¡Últimos días!
+            </span>
           </a>
         </div>
       </div>

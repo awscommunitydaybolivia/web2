@@ -64,5 +64,15 @@ export const teamData = [
       "https://aws-cd-bo-web.s3.amazonaws.com/aws-cd-bo-team/aws-cd-bo-team-08.webp",
     ug: "AWS User Group Cochabamba",
     linkedin: "https://www.linkedin.com/in/gonzaloalfarof",
+    twitter: "https://x.com/gonzaloalfarof",
+  },
+  {
+    name: "Adriana Lavadenz",
+    jobTitle: "DevOps Engineer",
+    image:
+      "https://aws-cd-bo-web.s3.amazonaws.com/aws-cd-bo-team/aws-cd-bo-team-09.webp",
+    ug: "AWS User Group Cochabamba",
+    linkedin: "https://www.linkedin.com/in/adriana-lavadenz-b49108a8/",
+    instagram: "https://www.instagram.com/adri_lavadenz?igsh=MWdiMjQxMmlxc21naQ=="
   },
 ];
