@@ -13,9 +13,10 @@ const SponsorsDia = ({ className = "" }) => {
           href="https://aws.amazon.com/es/"
           target="_blank"
           rel="noopener noreferrer"
+          className="inline-block"
         >
           <img
-            className="self-stretch w-[160px] relative max-h-full overflow-hidden shrink-0 min-h-[56px]"
+            className="self-stretch w-[160px] relative max-h-full overflow-hidden shrink-0 min-h-[56px] transition-transform duration-300 ease-in-out hover:scale-110"
             alt=""
             src="/aws-logo.svg"
           />
@@ -26,7 +27,7 @@ const SponsorsDia = ({ className = "" }) => {
           rel="noopener noreferrer"
         >
           <img
-            className="self-stretch w-[250px] relative max-h-full overflow-hidden shrink-0 min-h-[56px]"
+            className="self-stretch w-[250px] relative max-h-full overflow-hidden shrink-0 min-h-[56px] transition-transform duration-300 ease-in-out hover:scale-110"
             alt=""
             src="https://lpz.ucb.edu.bo/wp-content/uploads/2021/12/Colores-Horizontal-1.png"
           />
@@ -37,7 +38,7 @@ const SponsorsDia = ({ className = "" }) => {
           rel="noopener noreferrer"
         >
           <img
-            className="self-stretch w-[250px] relative max-h-full overflow-hidden shrink-0 min-h-[56px]"
+            className="self-stretch w-[250px] relative max-h-full overflow-hidden shrink-0 min-h-[56px] transition-transform duration-300 ease-in-out hover:scale-110"
             alt=""
             src="https://www.encora.com/hubfs/Website%20v2%20Assets/Homepage/Nav/Encora%20Nav.svg"
           />
