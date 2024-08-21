@@ -21,4 +21,11 @@ export const speakersData = [
     description: "Description for Speaker 1",
     linkedin: "https://www.linkedin.com/in/gsantiagom/"
   },
+  {
+    name: "Sofy Romero",
+    jobTitle: "Sr. Principal Chief Architect en RedHat LatAm",
+    image: "https://aws-cd-bo-web.s3.amazonaws.com/speakers-aws-cd-bo-2024/aws-cd-bo-speaker04.webp",
+    description: "Description for Speaker 1",
+    linkedin: "https://www.linkedin.com/in/sofy-chan/"
+  },
 ];
