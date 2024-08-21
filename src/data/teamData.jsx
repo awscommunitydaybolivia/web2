@@ -17,20 +17,22 @@ export const teamData = [
   },
   {
     name: "Sergio Rodríguez",
-    jobTitle: "",
+    jobTitle: "Cloud Engineer",
     image:
       "https://aws-cd-bo-web.s3.amazonaws.com/aws-cd-bo-team/aws-cd-bo-team-05.webp",
     ug: "AWS User Group Cochabamba",
-    linkedin: "https://www.linkedin.com/in/",
-    twitter: "https://x.com/",
+    linkedin: "https://www.linkedin.com/in/srinclan/",
+
   },
   {
     name: "Afu Tse",
-    jobTitle: "",
+    jobTitle: "DevOps Engineer",
     image:
       "https://aws-cd-bo-web.s3.amazonaws.com/aws-cd-bo-team/aws-cd-bo-team-04.webp",
     ug: "AWS User Group Cochabamba",
-    linkedin: "https://www.linkedin.com/in/",
+    linkedin: "https://www.linkedin.com/in/afutse/",
+    twitter: "https://x.com/r3xakead0",
+    instagram: "https://www.instagram.com/r3xakead0"
   },
   {
     name: "Sara Salazar",
@@ -51,7 +53,7 @@ export const teamData = [
   },
   {
     name: "Sergio Guillen",
-    jobTitle: "",
+    jobTitle: "Cloud Engineer",
     image:
       "https://aws-cd-bo-web.s3.amazonaws.com/aws-cd-bo-team/aws-cd-bo-team-01.webp",
     ug: "AWS User Group La Paz",
@@ -74,5 +76,13 @@ export const teamData = [
     ug: "AWS User Group Cochabamba",
     linkedin: "https://www.linkedin.com/in/adriana-lavadenz-b49108a8/",
     instagram: "https://www.instagram.com/adri_lavadenz?igsh=MWdiMjQxMmlxc21naQ=="
+  },
+  {
+    name: "Carmen Villcazani",
+    jobTitle: "DevOps Engineer",
+    image:
+      "https://aws-cd-bo-web.s3.amazonaws.com/aws-cd-bo-team/aws-cd-bo-team-10.webp",
+    ug: "AWS User Group Cochabamba",
+    linkedin: "http://linkedin.com/in/carmen-rosa-villcazani",
   },
 ];
