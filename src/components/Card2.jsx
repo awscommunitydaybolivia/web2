@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 const Card2 = ({ speaker, className = "" }) => {
   return (
     <div
-      className={`h-[490px] flex flex-col items-center justify-start gap-[16px] text-center text-lg text-link-primary font-aws-cd-bo-1-desktop-body-caption-regular ${className}`}
+      className={` flex flex-col items-center justify-start gap-[16px] text-center text-lg text-link-primary font-aws-cd-bo-1-desktop-body-caption-regular ${className}`}
     >
       <img
         className="self-stretch flex-1 relative max-w-full overflow-hidden max-h-full object-cover"
