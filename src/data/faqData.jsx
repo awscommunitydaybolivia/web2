@@ -57,7 +57,7 @@ export const faqData = [
   {
     question: "¿Puedo proponer una charla o taller para el evento?",
     answer:
-      "Sí, estamos abiertos a propuestas de charlas y talleres hasta el 23 de Agosto de 2024. Puedes enviar tu propuesta a través de nuestro formulario de propuestas haciendo click [aquí](https://sessionize.com/aws-community-day-bolivia-2024/).",
+      "Sí, estamos abiertos a propuestas de charlas y talleres hasta el 30 de Agosto de 2024. Puedes enviar tu propuesta a través de nuestro formulario de propuestas haciendo click [aquí](https://sessionize.com/aws-community-day-bolivia-2024/).",
   },
   {
     question: "Si tengo más consultas, ¿cómo puedo comunicarme con los organizadores?",

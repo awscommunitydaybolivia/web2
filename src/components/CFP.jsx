@@ -18,7 +18,7 @@ const CFP = forwardRef(({ className = "" }, ref) => {
             </h1>
             <div className="self-stretch relative text-lg leading-[120%]">
               <p className="m-0">
-                ¡Postula hasta el 23 de Agosto para ser Speaker en el
+                ¡Postula hasta el 30 de Agosto para ser Speaker en el
               </p>
               <p className="m-0">AWS Community Day Bolivia 2024!</p>
             </div>
