@@ -24,7 +24,7 @@ const Beoursponsor = ({ className = "" }) => {
           </div>
           <div className="flex flex-row items-center justify-start pt-4 px-0 pb-0">
             <a
-              href="mailto:sponsor@awscommunity.org.bo"
+              href="https://calendar.app.google/f5FuSsheh1GzgoEN6"
               target="_blank"
               rel="noopener noreferrer"
               className="cursor-pointer py-3 px-6 bg-primary-primary rounded-31xl flex flex-row items-center justify-center whitespace-nowrap hover:bg-chocolate focus:outline-none focus:ring-2 focus:ring-gainsboro-100 no-underline"

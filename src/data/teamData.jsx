@@ -47,7 +47,7 @@ export const teamData = [
     jobTitle: "Software Engineer",
     image:
       "https://aws-cd-bo-web.s3.amazonaws.com/aws-cd-bo-team/aws-cd-bo-team-02.webp",
-    ug: "AWS User Group La Paz ",
+    ug: "AWS Community Builder",
     linkedin: "https://www.linkedin.com/in/monica-canaza",
     instagram: "https://www.instagram.com/moni_hikari/"
   },
