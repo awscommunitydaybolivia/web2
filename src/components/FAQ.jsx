@@ -8,7 +8,7 @@ const FAQ = forwardRef(({ className = "" }, ref) => {
   return (
     <section
       ref={ref}
-      className={`self-stretch bg-background-color-primary overflow-hidden flex flex-col items-start justify-start py-28 px-16 box-border max-w-full z-[2] text-left text-29xl text-link-primary font-aws-cd-bo-1-desktop-body-caption-regular mq800:gap-[40px] mq800:py-[73px] mq800:px-8 mq800:box-border mq450:gap-[20px] ${className}`}
+      className={`self-stretch bg-background-color-primary overflow-hidden flex flex-col items-start justify-start py-16 px-16 box-border max-w-full z-[2] text-left text-29xl text-link-primary font-aws-cd-bo-1-desktop-body-caption-regular mq800:gap-[40px] mq800:py-[73px] mq800:px-8 mq800:box-border mq450:gap-[20px] ${className}`}
     >
       <div className="self-stretch flex flex-row items-start justify-start gap-[80px] max-w-full mq800:gap-[40px] mq450:gap-[20px] mq1325:flex-wrap">
         <div className="w-[500px] flex flex-col items-start justify-start gap-[32px] max-w-full mq800:gap-[16px] mq800:min-w-full mq1325:flex-1">

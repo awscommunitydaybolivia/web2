@@ -2,11 +2,12 @@ import React, { useRef } from "react";
 
 import Navbar from "../components/Navbar";
 import EventItemHeader from "../components/EventItemHeader";
-import CFP from "../components/CFP";
+
 import Beoursponsor from "../components/Beoursponsor";
 import Map1 from "../components/Map1";
 import Speakers from "../components/Speakers";
 import Sponsors from "../components/Sponsors";
+import ComunidadesAliadas from "../components/ComunidadesAliadas";
 import Layout from "../components/Layout";
 import Agenda from "../components/Agenda";
 import FAQ from "../components/FAQ";
@@ -31,18 +32,19 @@ const Home = () => {
   return (
     <div className="w-full relative flex flex-col items-start justify-start leading-[normal] tracking-[normal]">
       <Navbar
-        onSpeakersClick={() => scrollToSection(cfsRef)}
+        onSpeakersClick={() => scrollToSection(speakersRef)}
         onSponsorsClick={() => scrollToSection(sponsorsRef)}
         onAgendaClick={() => scrollToSection(agendaRef)}
         onTeamClick={() => scrollToSection(teamRef)}
         onFAQClick={() => scrollToSection(faqRef)}
       />
       <EventItemHeader onConsultaClick={() => scrollToSection(faqRef)} />
-      <CFP ref={cfsRef} />
+      {/*<CFP />*/}
       <Beoursponsor />
       <Map1 />
-      <Speakers />
+      <Speakers ref={speakersRef} />
       <Sponsors ref={sponsorsRef} />
+      <ComunidadesAliadas />
       {/*<Layout />
       <Layout />
       <Layout />*/}

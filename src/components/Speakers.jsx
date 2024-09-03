@@ -7,7 +7,7 @@ const Speakers = forwardRef(({ className = "" }, ref) => {
   return (
     <section
       ref={ref}
-      className={`self-stretch bg-background-color-primary overflow-hidden flex flex-col items-center justify-start py-28 px-16 box-border gap-[80px] max-w-full text-center text-base text-link-primary font-aws-cd-bo-1-desktop-body-caption-regular mq800:gap-[40px] mq800:py-[47px] mq800:px-8 mq800:box-border mq1125:pt-[73px] mq1125:pb-[73px] mq1125:box-border mq450:gap-[20px] ${className}`}
+      className={`self-stretch bg-background-color-primary overflow-hidden flex flex-col items-center justify-start py-16 px-16 box-border gap-[80px] max-w-full text-center text-base text-link-primary font-aws-cd-bo-1-desktop-body-caption-regular mq800:gap-[40px] mq800:py-[47px] mq800:px-8 mq800:box-border mq1125:pt-[73px] mq1125:pb-[73px] mq1125:box-border mq450:gap-[20px] ${className}`}
     >
       <div className="w-[768px] flex flex-col items-center justify-start gap-[16px] max-w-full">
         {/*<b className="relative leading-[120%] inline-block min-w-[56px]">

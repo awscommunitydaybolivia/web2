@@ -85,4 +85,13 @@ export const teamData = [
     ug: "AWS User Group Cochabamba",
     linkedin: "http://linkedin.com/in/carmen-rosa-villcazani",
   },
+  {
+    name: "Rodolfo Catunta",
+    jobTitle: "Software Engineer",
+    image:
+      "https://aws-cd-bo-web.s3.amazonaws.com/aws-cd-bo-team/aws-cd-bo-team-11.webp",
+    ug: "AWS User Group La Paz",
+    linkedin: "https://www.linkedin.com/in/rodolfo-catunta/",
+    instagram: "https://www.instagram.com/rodo_catunta/"
+  },
 ];

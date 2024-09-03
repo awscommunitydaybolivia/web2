@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 const Beoursponsor = ({ className = "" }) => {
   return (
     <section
-      className={`self-stretch bg-darkslategray-300 overflow-hidden flex flex-col items-center justify-start pt-28 px-[200px] pb-[120px] box-border max-w-full text-left text-29xl text-background-color-primary font-aws-cd-bo-1-desktop-body-caption-regular mq800:gap-[40px] mq800:pl-5 mq800:pr-5 mq800:box-border mq450:gap-[20px] mq450:pt-[73px] mq450:pb-[78px] mq450:box-border ${className}`}
+      className={`self-stretch bg-primary-primary overflow-hidden flex flex-col items-center justify-start py-28 px-[200px] box-border max-w-full text-left text-29xl text-background-color-primary font-aws-cd-bo-1-desktop-body-caption-regular mq800:gap-[40px] mq800:pl-5 mq800:pr-5 mq800:box-border mq450:gap-[20px] mq450:pt-[73px] mq450:pb-[78px] mq450:box-border ${className}`}
     >
       <div className="self-stretch flex flex-row flex-wrap items-start justify-start gap-[80px] max-w-full mq800:gap-[20px] mq800:flex-col mq800:items-center mq1125:gap-[40px]">
         <div className="flex-1 overflow-hidden flex flex-col items-start justify-start max-w-full mq800:items-center">
@@ -27,11 +27,11 @@ const Beoursponsor = ({ className = "" }) => {
               href="https://calendar.app.google/f5FuSsheh1GzgoEN6"
               target="_blank"
               rel="noopener noreferrer"
-              className="cursor-pointer py-3 px-6 bg-primary-primary rounded-31xl flex flex-row items-center justify-center whitespace-nowrap hover:bg-chocolate focus:outline-none focus:ring-2 focus:ring-gainsboro-100 no-underline"
+              className="cursor-pointer py-2.5 px-[23px] bg-[transparent] rounded-31xl flex flex-row items-center justify-center whitespace-nowrap border-[1px] border-solid border-background-color-primary hover:bg-gainsboro-200 hover:border-gainsboro-100 focus:outline-none focus:ring-2 focus:ring-gainsboro-100 no-underline relative"
             >
-              <span className="relative text-base leading-[120%] font-aws-cd-bo-1-desktop-body-caption-regular text-background-color-primary text-left font-bold">
-                Contáctanos
-              </span>
+              <b className="relative text-base leading-[120%] font-aws-cd-bo-1-desktop-body-caption-regular text-background-color-primary text-left">
+                Agendar una reunión
+              </b>
             </a>
           </div>
         </div>

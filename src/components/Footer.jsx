@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 const Footer = ({ className = "" }) => {
   return (
     <footer
-      className={`self-stretch bg-background-color-primary overflow-hidden flex flex-col items-start justify-start py-20 px-16 box-border max-w-full z-[4] text-left text-base text-link-primary font-aws-cd-bo-1-desktop-body-caption-regular mq800:gap-[40px] mq800:py-[52px] mq800:px-8 mq800:box-border mq450:gap-[20px] ${className}`}
+      className={`self-stretch bg-background-color-primary overflow-hidden flex flex-col items-start justify-start py-16 px-16 box-border max-w-full z-[4] text-left text-base text-link-primary font-aws-cd-bo-1-desktop-body-caption-regular mq800:gap-[40px] mq800:py-[52px] mq800:px-8 mq800:box-border mq450:gap-[20px] ${className}`}
     >
       <div className="self-stretch flex flex-row items-start justify-between pt-0 px-0 pb-12 box-border max-w-full gap-[20px] mq1325:flex-wrap">
         <div className="w-[500px] flex flex-col items-start justify-start gap-[24px] min-w-[500px] max-w-full mq800:min-w-full mq1325:flex-1">
