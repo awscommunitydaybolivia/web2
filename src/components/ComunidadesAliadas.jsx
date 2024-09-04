@@ -1,10 +1,8 @@
 import React, { forwardRef } from "react";
 
-import SponsorsDia from "./SponsorsDia";
+
 import Comunidades1 from "./Comunidades1";
-import SponsorsPlati from "./SponsorsPlati";
-import SponsorsOro from "./SponsorsOro";
-import SponsorsPlata from "./SponsorsPlata";
+
 
 import PropTypes from "prop-types";
 
@@ -25,9 +23,6 @@ const ComunidadesAliadas = forwardRef(({ className = "" }, ref) => {
         </div>
       </div>
       <Comunidades1 />
-      {/*<SponsorsPlati />
-      <SponsorsOro heading="Sponsors Oro" />
-      <SponsorsPlata heading="Sponsors Plata" />*/}
     </section>
   );
 });
