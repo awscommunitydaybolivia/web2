@@ -72,7 +72,7 @@ const Comunidades1 = ({ className = "" }) => {
             Mujeres TICs Bolivia
           </p>
         </div>
-        <div className="flex flex-col items-center">
+        {/*<div className="flex flex-col items-center">
           <a
             href=""
             target="_blank"
@@ -88,7 +88,7 @@ const Comunidades1 = ({ className = "" }) => {
           <p className="mt-4  text-lg text-link-primary">
             Women Techmakers <br /> El Alto
           </p>
-        </div>
+        </div>*/}
       </div>
     </div>
   );
