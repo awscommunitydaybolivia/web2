@@ -1,7 +1,7 @@
 export const teamData = [
   {
     name: "Laura Sainz",
-    jobTitle: "",
+    jobTitle: "DevOps Engineer",
     image:
       "https://aws-cd-bo-web.s3.amazonaws.com/aws-cd-bo-team/aws-cd-bo-team-07.webp",
     ug: "AWS User Group La Paz",
@@ -93,5 +93,14 @@ export const teamData = [
     ug: "AWS User Group La Paz",
     linkedin: "https://www.linkedin.com/in/rodolfo-catunta/",
     instagram: "https://www.instagram.com/rodo_catunta/"
+  },
+  {
+    name: "Oscar Campohermoso",
+    jobTitle: "Estudiante",
+    image:
+      "https://aws-cd-bo-web.s3.amazonaws.com/aws-cd-bo-team/aws-cd-bo-team-12.webp",
+    ug: "AWS User Group La Paz",
+    linkedin: "https://www.linkedin.com/in/oscar-campohermoso-berdeja-0083182b5",
+    instagram: "https://www.instagram.com/oscar.berdeja/"
   },
 ];
