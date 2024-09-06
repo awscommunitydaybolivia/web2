@@ -40,8 +40,8 @@ const EventItemHeader = ({ className = "", onConsultaClick }) => {
     <section
       className={`self-stretch overflow-hidden flex flex-col items-center justify-center py-28 px-5 box-border bg-[url('https://aws-cd-bo-web.s3.amazonaws.com/aws-cd-bo-web-imgs/aws-cd-background-2880x1800-2.jpg')] bg-cover bg-no-repeat bg-[top] max-w-full mq450:bg-[url('https://aws-cd-bo-web.s3.amazonaws.com/aws-cd-bo-web-imgs/aws-cd-background-450x800-2.jpg')]  text-center text-37xl text-background-color-primary font-aws-cd-bo-1-desktop-body-caption-regular mq800:pt-[73px] mq800:pb-[73px] mq800:box-border mq1125:gap-[40px] mq450:gap-[20px] ${className}`}
     >
-      <div className="w-[768px] flex flex-col items-center justify-center gap-[32px] max-w-full mq450:gap-[16px]">
-        <div className="self-stretch flex flex-col items-center justify-center gap-[24px] max-w-full">
+      <div className="w-[768px] flex flex-col items-center justify-center gap-[32px] max-w-full">
+        <div className="self-stretch flex flex-col items-center justify-center gap-[32px] max-w-full">
           <div className="self-stretch flex flex-col items-center justify-start">
             <div className="self-stretch flex flex-col items-start justify-start gap-[24px]">
               <b className="self-stretch relative leading-[120%] mq800:text-26xl mq800:leading-[54px] mq450:text-15xl mq450:leading-[40px]">
@@ -69,7 +69,7 @@ const EventItemHeader = ({ className = "", onConsultaClick }) => {
           </div>
         </div>
         <div className="flex flex-col items-center justify-center py-0 px-[63px] box-border max-w-full mq800:pl-[31px] mq800:pr-[31px] mq800:box-border">
-          <div className="flex flex-row items-start justify-start gap-[16px] mq450:flex-wrap mq450:justify-center ">
+          <div className="flex flex-row items-start justify-start gap-[24px] mq450:flex-wrap mq450:justify-center ">
             <a
               href="https://www.eventbrite.com/e/aws-community-day-bolivia-2024-tickets-969150825207"
               target="_blank"

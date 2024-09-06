@@ -173,7 +173,7 @@ const Navbar = ({
                 onClick={toggleMenu}
               />
             </div>
-            <nav className="flex flex-col gap-6 text-left text-lg text-link-primary font-aws-cd-bo-1-desktop-body-caption-regular">
+            <nav className="flex flex-col gap-5 text-left text-lg text-link-primary font-aws-cd-bo-1-desktop-body-caption-regular">
               <div
                 className="relative leading-[180%] py-2 hover:underline cursor-pointer"
                 onClick={handleNavClick()}
