@@ -59,7 +59,6 @@ const Home = () => {
         onFAQClick={() => scrollToSection(faqRef)}
       />
       <EventItemHeader onConsultaClick={() => scrollToSection(faqRef)} />
-      {/*<CFP />*/}
       <Beoursponsor />
       <Map1 />
       <Speakers ref={speakersRef} />
