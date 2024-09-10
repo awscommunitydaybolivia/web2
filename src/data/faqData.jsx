@@ -39,11 +39,6 @@ export const faqData = [
     answer: "Sí, se proporcionarán refrigerios durante el evento.",
   },
   {
-    question: "¿Hay oportunidades para voluntarios y voluntarias?",
-    answer:
-      "Sí, estamos buscando voluntarios y voluntarias entusiasmados y comprometidos para contribuir a que el evento sea un éxito. Si te interesa, mantente atento a nuestras redes sociales, allí publicaremos la convocatoria para voluntarios.",
-  },
-  {
     question:
       "¿Cómo puedo involucrarme más en la comunidad de AWS después del evento?",
     answer:

@@ -16,18 +16,30 @@ const Footer = ({ className = "" }) => {
           <div className="self-stretch relative leading-[120%]">
             El AWS Community Day Bolivia 2024 es realizado por las comunidades:
           </div>
-          <img
-            className="w-[100px] relative overflow-hidden shrink-0"
-            loading="lazy"
-            alt=""
-            src="/aws-ug-lpz.png"
-          />
-          <img
-            className="w-[200px] relative overflow-hidden shrink-0"
-            loading="lazy"
-            alt=""
-            src="/aws-ug-cocha.png"
-          />
+          <a
+            href="https://www.meetup.com/aws-user-group-la-paz/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              className="w-[100px] relative overflow-hidden shrink-0 transition-transform duration-300 ease-in-out hover:scale-110"
+              loading="lazy"
+              alt=""
+              src="/aws-ug-lpz.png"
+            />
+          </a>
+          <a
+            href="https://www.meetup.com/aws-user-group-cochabamba/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              className="w-[200px] relative overflow-hidden shrink-0 transition-transform duration-300 ease-in-out hover:scale-110"
+              loading="lazy"
+              alt=""
+              src="/aws-ug-cocha.png"
+            />
+          </a>
         </div>
         <div className="flex flex-row items-start justify-end gap-[40px] max-w-full mq800:flex-wrap mq800:gap-[20px] mq1125:min-w-full mq1325:flex-1">
           <div className="hidden flex-1 overflow-hidden flex flex-col items-start justify-start gap-[16px] min-w-[151px]">

@@ -44,6 +44,7 @@ const SponsorsDia = ({ className = "" }) => {
           />
         </a>
       </div>
+      
     </div>
   );
 };

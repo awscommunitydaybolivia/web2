@@ -6,7 +6,7 @@ const Card2 = ({ speaker, className = "" }) => {
       className={` flex flex-col items-center justify-start gap-[16px] text-center text-lg text-link-primary font-aws-cd-bo-1-desktop-body-caption-regular ${className}`}
     >
       <img
-        className="self-stretch flex-1 relative max-w-full overflow-hidden max-h-full object-cover"
+        className="self-stretch flex-1 relative max-w-full overflow-hidden max-h-full object-cover transition-transform duration-300 ease-in-out hover:scale-105"
         loading="lazy"
         alt={speaker.name}
         src={speaker.image}
