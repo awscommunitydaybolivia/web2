@@ -6,7 +6,7 @@ const Card = ({ team, className = "" }) => {
       className={`flex-1 flex flex-col items-center justify-start gap-[16px] min-w-[240px] max-w-[304px] text-center text-lg text-link-primary font-aws-cd-bo-1-desktop-body-caption-regular ${className}`}
     >
       <img
-        className="h-[270px] max-w-[270px] relative object-contain rounded-full transition-transform duration-300 ease-in-out hover:scale-105"
+        className="h-[270px] max-w-[270px] relative object-contain rounded-full "
         loading="lazy"
         alt={team.name}
         src={team.image}
