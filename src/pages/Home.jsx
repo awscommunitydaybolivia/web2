@@ -63,11 +63,11 @@ const Home = () => {
       <Map1 />
       <Speakers ref={speakersRef} />
       <Sponsors ref={sponsorsRef} />
-      <ComunidadesAliadas />
       {/*<Layout />
       <Layout />
       <Layout />*/}
       {/*<Agenda ref={agendaRef}/>*/}
+      <ComunidadesAliadas />
       <Team ref={teamRef} />
       <FAQ ref={faqRef} />
       <Footer />

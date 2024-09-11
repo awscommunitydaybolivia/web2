@@ -5,7 +5,6 @@ export const teamData = [
     image:
       "https://aws-cd-bo-web.s3.amazonaws.com/aws-cd-bo-team/aws-cd-bo-team-07.webp",
     ug: "AWS User Group La Paz",
-    linkedin: "https://www.linkedin.com/in/",
   },
   {
     name: "Juan Jose Miranda",
@@ -13,7 +12,8 @@ export const teamData = [
     image:
       "https://aws-cd-bo-web.s3.amazonaws.com/aws-cd-bo-team/aws-cd-bo-team-06.webp",
     ug: "AWS User Group La Paz",
-    linkedin: "https://www.linkedin.com/in/",
+    linkedin: "https://www.linkedin.com/in/juanjosemirandam/",
+    instagram: "https://www.instagram.com/juan.jose.miranda/",
   },
   {
     name: "Sergio Rodríguez",
@@ -22,7 +22,6 @@ export const teamData = [
       "https://aws-cd-bo-web.s3.amazonaws.com/aws-cd-bo-team/aws-cd-bo-team-05.webp",
     ug: "AWS User Group Cochabamba",
     linkedin: "https://www.linkedin.com/in/srinclan/",
-
   },
   {
     name: "Afu Tse",
@@ -32,15 +31,16 @@ export const teamData = [
     ug: "AWS User Group Cochabamba",
     linkedin: "https://www.linkedin.com/in/afutse/",
     twitter: "https://x.com/r3xakead0",
-    instagram: "https://www.instagram.com/r3xakead0"
+    instagram: "https://www.instagram.com/r3xakead0",
   },
   {
     name: "Sara Salazar",
-    jobTitle: "",
+    jobTitle: "Software Engineer",
     image:
       "https://aws-cd-bo-web.s3.amazonaws.com/aws-cd-bo-team/aws-cd-bo-team-03.webp",
     ug: "AWS User Group La Paz",
-    linkedin: "https://www.linkedin.com/in/",
+    instagram:
+      "https://www.instagram.com/sara_salazar_prd?igsh=dDA5M2w1cmZ0OWdv&utm_source=qr",
   },
   {
     name: "Monica Canaza",
@@ -49,7 +49,7 @@ export const teamData = [
       "https://aws-cd-bo-web.s3.amazonaws.com/aws-cd-bo-team/aws-cd-bo-team-02.webp",
     ug: "AWS Community Builder",
     linkedin: "https://www.linkedin.com/in/monica-canaza",
-    instagram: "https://www.instagram.com/moni_hikari/"
+    instagram: "https://www.instagram.com/moni_hikari/",
   },
   {
     name: "Sergio Guillen",
@@ -57,7 +57,6 @@ export const teamData = [
     image:
       "https://aws-cd-bo-web.s3.amazonaws.com/aws-cd-bo-team/aws-cd-bo-team-01.webp",
     ug: "AWS User Group La Paz",
-    linkedin: "https://www.linkedin.com/in/",
   },
   {
     name: "Gonzalo Alfaro",
@@ -75,7 +74,8 @@ export const teamData = [
       "https://aws-cd-bo-web.s3.amazonaws.com/aws-cd-bo-team/aws-cd-bo-team-09.webp",
     ug: "AWS User Group Cochabamba",
     linkedin: "https://www.linkedin.com/in/adriana-lavadenz-b49108a8/",
-    instagram: "https://www.instagram.com/adri_lavadenz?igsh=MWdiMjQxMmlxc21naQ=="
+    instagram:
+      "https://www.instagram.com/adri_lavadenz?igsh=MWdiMjQxMmlxc21naQ==",
   },
   {
     name: "Carmen Villcazani",
@@ -92,7 +92,7 @@ export const teamData = [
       "https://aws-cd-bo-web.s3.amazonaws.com/aws-cd-bo-team/aws-cd-bo-team-11.webp",
     ug: "AWS User Group La Paz",
     linkedin: "https://www.linkedin.com/in/rodolfo-catunta/",
-    instagram: "https://www.instagram.com/rodo_catunta/"
+    instagram: "https://www.instagram.com/rodo_catunta/",
   },
   {
     name: "Oscar Campohermoso",
@@ -100,7 +100,8 @@ export const teamData = [
     image:
       "https://aws-cd-bo-web.s3.amazonaws.com/aws-cd-bo-team/aws-cd-bo-team-12.webp",
     ug: "AWS User Group La Paz",
-    linkedin: "https://www.linkedin.com/in/oscar-campohermoso-berdeja-0083182b5",
-    instagram: "https://www.instagram.com/oscar.berdeja/"
+    linkedin:
+      "https://www.linkedin.com/in/oscar-campohermoso-berdeja-0083182b5",
+    instagram: "https://www.instagram.com/oscar.berdeja/",
   },
 ];
