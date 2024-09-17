@@ -14,7 +14,7 @@ const Comunidades1 = ({ className = "" }) => {
             className="inline-block"
           >
             <img
-              className="self-stretch w-[180px] relative max-h-full overflow-hidden shrink-0 min-h-[56px] transition-transform duration-300 ease-in-out hover:scale-110"
+              className="self-stretch w-[160px] relative max-h-full overflow-hidden shrink-0 min-h-[56px] transition-transform duration-300 ease-in-out hover:scale-110"
               alt=""
               src="https://aws-cd-bo-web.s3.amazonaws.com/aws-cd-bo-comunidades-aliadas/logo-notion-bolivia.png"
             />
@@ -29,7 +29,7 @@ const Comunidades1 = ({ className = "" }) => {
             className="inline-block"
           >
             <img
-              className="self-stretch w-[180px] relative max-h-full overflow-hidden shrink-0  transition-transform duration-300 ease-in-out hover:scale-110"
+              className="self-stretch w-[160px] relative max-h-full overflow-hidden shrink-0  transition-transform duration-300 ease-in-out hover:scale-110"
               alt=""
               src="https://aws-cd-bo-web.s3.amazonaws.com/aws-cd-bo-comunidades-aliadas/logo-carrera-ing-sistemas.png"
             />
@@ -46,7 +46,7 @@ const Comunidades1 = ({ className = "" }) => {
             className="inline-block"
           >
             <img
-              className="self-stretch w-[180px] relative max-h-full overflow-hidden shrink-0 min-h-[56px] transition-transform duration-300 ease-in-out hover:scale-110"
+              className="self-stretch w-[160px] relative max-h-full overflow-hidden shrink-0 min-h-[56px] transition-transform duration-300 ease-in-out hover:scale-110"
               alt=""
               src="https://aws-cd-bo-web.s3.amazonaws.com/aws-cd-bo-comunidades-aliadas/logo-sociedad-cientifica.png"
             />
@@ -63,7 +63,7 @@ const Comunidades1 = ({ className = "" }) => {
             className="inline-block"
           >
             <img
-              className="self-stretch w-[180px] relative max-h-full overflow-hidden shrink-0 transition-transform duration-300 ease-in-out hover:scale-110"
+              className="self-stretch w-[160px] relative max-h-full overflow-hidden shrink-0 transition-transform duration-300 ease-in-out hover:scale-110"
               alt=""
               src="https://aws-cd-bo-web.s3.amazonaws.com/aws-cd-bo-comunidades-aliadas/logo-mujeres-tics-bo.png"
             />
@@ -82,7 +82,7 @@ const Comunidades1 = ({ className = "" }) => {
             className="inline-block"
           >
             <img
-              className="self-stretch w-[180px] relative max-h-full overflow-hidden shrink-0 min-h-[56px] transition-transform duration-300 ease-in-out hover:scale-110"
+              className="self-stretch w-[160px] relative max-h-full overflow-hidden shrink-0 min-h-[56px] transition-transform duration-300 ease-in-out hover:scale-110"
               alt=""
               src="https://aws-cd-bo-web.s3.amazonaws.com/aws-cd-bo-comunidades-aliadas/logo-womenspeedupa.png"
             />
@@ -97,13 +97,47 @@ const Comunidades1 = ({ className = "" }) => {
             className="inline-block"
           >
             <img
-              className="self-stretch w-[180px] relative max-h-full overflow-hidden shrink-0 transition-transform duration-300 ease-in-out hover:scale-110"
+              className="self-stretch w-[160px] relative max-h-full overflow-hidden shrink-0 transition-transform duration-300 ease-in-out hover:scale-110"
               alt=""
               src="https://aws-cd-bo-web.s3.amazonaws.com/aws-cd-bo-comunidades-aliadas/logo-r00thouse.png"
             />
           </a>
           <p className="mt-4  text-lg text-link-primary">
           R00thouse Hacklab <br /> La Paz
+          </p>
+        </div>
+        <div className="flex flex-col items-center">
+          <a
+            href=""
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block"
+          >
+            <img
+              className="self-stretch w-[160px] relative max-h-full overflow-hidden shrink-0 transition-transform duration-300 ease-in-out hover:scale-110"
+              alt=""
+              src="https://aws-cd-bo-web.s3.amazonaws.com/aws-cd-bo-comunidades-aliadas/logo-nosgustalaciencia.png"
+            />
+          </a>
+          <p className="mt-4  text-lg text-link-primary">
+          Nos Gusta la Ciencia
+          </p>
+        </div>
+        <div className="flex flex-col items-center">
+          <a
+            href=""
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block"
+          >
+            <img
+              className="self-stretch w-[160px] relative max-h-full overflow-hidden shrink-0 transition-transform duration-300 ease-in-out hover:scale-110"
+              alt=""
+              src="https://aws-cd-bo-web.s3.amazonaws.com/aws-cd-bo-comunidades-aliadas/logo-awsgirlsbolivia.png"
+            />
+          </a>
+          <p className="mt-4  text-lg text-link-primary">
+          AWS Girls User Group < br /> Bolivia
           </p>
         </div>
       </div>
