@@ -15,7 +15,7 @@ const SponsorsDia = ({ className = "" }) => {
           rel="noopener noreferrer"
         >
           <img
-            className="self-stretch w-[250px] pt-8 relative max-h-full overflow-hidden shrink-0 min-h-[56px] transition-transform duration-300 ease-in-out hover:scale-110"
+            className="self-stretch w-[250px] pt-8 mq800:pt-4 relative max-h-full overflow-hidden shrink-0 min-h-[56px] transition-transform duration-300 ease-in-out hover:scale-110"
             alt=""
             src="https://aws-cd-bo-web.s3.amazonaws.com/aws-cd-bo-sponsors-files/sponsors-logos/logo-cloudreams.png"
           />

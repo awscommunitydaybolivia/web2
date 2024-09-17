@@ -120,7 +120,7 @@ const Comunidades1 = ({ className = "" }) => {
             />
           </a>
           <p className="mt-4  text-lg text-link-primary">
-          Nos Gusta la Ciencia
+          Nos Gusta la <br /> Ciencia
           </p>
         </div>
         <div className="flex flex-col items-center">
@@ -137,7 +137,7 @@ const Comunidades1 = ({ className = "" }) => {
             />
           </a>
           <p className="mt-4  text-lg text-link-primary">
-          AWS Girls User Group < br /> Bolivia
+          AWS Girls< br /> User Group  Bolivia
           </p>
         </div>
       </div>
