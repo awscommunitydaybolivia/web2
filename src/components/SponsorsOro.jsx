@@ -1,6 +1,6 @@
 import PropTypes from "prop-types";
 
-const SponsorsDia = ({ className = "" }) => {
+const SponsorsOro = ({ className = "" }) => {
   return (
     <div
       className={`flex flex-col items-center justify-center gap-[24px] max-w-full text-center text-5xl text-link-primary font-aws-cd-bo-1-desktop-body-caption-regular ${className}`}
@@ -36,8 +36,8 @@ const SponsorsDia = ({ className = "" }) => {
   );
 };
 
-SponsorsDia.propTypes = {
+SponsorsOro.propTypes = {
   className: PropTypes.string,
 };
 
-export default SponsorsDia;
+export default SponsorsOro;

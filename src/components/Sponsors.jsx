@@ -19,7 +19,7 @@ const Sponsors = forwardRef(({ className = "" }, ref) => {
         </h1>
       </div>
       <SponsorsDia />
-      {/*<SponsorsPlati />*/}
+      <SponsorsPlati />
       <SponsorsOro heading="Sponsors Oro" />
       {/*<SponsorsPlata heading="Sponsors Plata" />*/}
       <div className="max-w-lg mq450:max-w-60 items-center justify-center ">

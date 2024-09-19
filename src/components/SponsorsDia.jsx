@@ -56,21 +56,6 @@ const SponsorsDia = ({ className = "" }) => {
         </a>
         
       </div>
-      <div className="flex flex-row items-center justify-center py-0 px-[94px] box-border gap-[48px] max-w-full mq1125:flex-wrap mq800:gap-[24px] mq800:pl-[47px] mq800:pr-[47px] mq800:box-border mq450:pl-5 mq450:pr-5 mq450:box-border">
-      <a
-          href="https://nowisnao.com/"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="inline-block"
-        >
-          <img
-            className="self-stretch w-[350px] relative max-h-full overflow-hidden mq800:pt-4 mq450:w-[290px] shrink-0  transition-transform duration-300 ease-in-out hover:scale-110"
-            alt=""
-            src="https://aws-cd-bo-web.s3.amazonaws.com/aws-cd-bo-sponsors-files/sponsors-logos/logo-digitalnao.png"
-          />
-        </a>
-        
-      </div>
       
     </div>
   );
