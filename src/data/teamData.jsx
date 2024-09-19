@@ -8,7 +8,7 @@ export const teamData = [
   },
   {
     name: "Juan Jose Miranda",
-    jobTitle: "",
+    jobTitle: "Lead Software Engineer",
     image:
       "https://aws-cd-bo-web.s3.amazonaws.com/aws-cd-bo-team/aws-cd-bo-team-06.webp",
     ug: "AWS User Group La Paz",
