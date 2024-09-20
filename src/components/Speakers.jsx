@@ -17,7 +17,7 @@ const Speakers = forwardRef(({ className = "" }, ref) => {
           <b className="self-stretch relative leading-[58px] mq800:text-19xl mq800:leading-[46px] mq450:text-10xl mq450:leading-[35px]">
             Nuestros Speakers
           </b>
-          <div className="self-stretch relative text-lg leading-[22px]">{`*Próximamente iremos agregando a todos los speakers del evento `}</div>
+          <div className="self-stretch relative text-lg leading-[22px]">{`Conoce a todos los speakers del evento `}</div>
         </div>
       </div>
       <div className="self-stretch flex flex-col items-center justify-start text-lg mq800:gap-[48px] mq450:gap-[24px]">

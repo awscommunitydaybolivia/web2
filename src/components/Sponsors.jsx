@@ -20,7 +20,7 @@ const Sponsors = forwardRef(({ className = "" }, ref) => {
       </div>
       <SponsorsDia />
       <SponsorsPlati />
-      <SponsorsOro heading="Sponsors Oro" />
+      <SponsorsOro />
       {/*<SponsorsPlata heading="Sponsors Plata" />*/}
       <div className="max-w-lg mq450:max-w-60 items-center justify-center ">
         <div className="self-stretch relative text-lg mq450:text-sm leading-[120%]">
