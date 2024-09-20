@@ -50,13 +50,6 @@ export const speakersData = [
     linkedin: "https://www.linkedin.com/in/arielgos"
   },
   {
-    name: "Victor Aguilar",
-    jobTitle: "Senior Software Engineer en Collectives",
-    image: "https://aws-cd-bo-web.s3.amazonaws.com/speakers-aws-cd-bo-2024/aws-cd-bo-speaker08.webp",
-    description: "Description for Speaker 1",
-    linkedin: "https://www.linkedin.com/in/victoraguilarc/"
-  },
-  {
     name: "Miguel Frade",
     jobTitle: "Fullstack Developer en Mojix",
     image: "https://aws-cd-bo-web.s3.amazonaws.com/speakers-aws-cd-bo-2024/aws-cd-bo-speaker09.webp",
