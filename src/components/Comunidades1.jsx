@@ -158,6 +158,21 @@ const Comunidades1 = ({ className = "" }) => {
           </a>
           <p className="mt-4 text-lg text-link-primary">Testing Bolivia</p>
         </div>
+        <div className="flex flex-col items-center">
+          <a
+            href=""
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block"
+          >
+            <img
+              className="self-stretch w-[160px] relative max-h-full overflow-hidden shrink-0 min-h-[56px] transition-transform duration-300 ease-in-out hover:scale-110"
+              alt=""
+              src="https://aws-cd-bo-web.s3.amazonaws.com/aws-cd-bo-comunidades-aliadas/logo-pyladieslapaz.png"
+            />
+          </a>
+          <p className="mt-4 text-lg text-link-primary">Pyladies La Paz</p>
+        </div>
       </div>
     </div>
   );
