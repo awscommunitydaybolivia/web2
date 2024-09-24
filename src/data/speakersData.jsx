@@ -101,13 +101,6 @@ export const speakersData = [
     linkedin: "https://www.linkedin.com/in/maximilian-vino-860602129/"
   },
   {
-    name: "Fernando Terrazas",
-    jobTitle: "IPPB",
-    image: "https://aws-cd-bo-web.s3.amazonaws.com/speakers-aws-cd-bo-2024/aws-cd-bo-speaker16.webp",
-    description: "Description for Speaker 1",
-    linkedin: "https://www.linkedin.com/in/fernando-terrazas-79abab5/"
-  },
-  {
     name: "Carmen Villcazani",
     jobTitle: "DevOps Engineer en Jalasoft",
     image: "https://aws-cd-bo-web.s3.amazonaws.com/speakers-aws-cd-bo-2024/aws-cd-bo-speaker17.webp",
