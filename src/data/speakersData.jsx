@@ -137,16 +137,16 @@ export const speakersData = [
     twitter: "https://twitter.com/abeldiaz_system?lang=es"
   },
   {
+    name: "Marcelo Reyes",
+    jobTitle: "Project Manager en Encora",
+    image: "https://aws-cd-bo-web.s3.amazonaws.com/speakers-aws-cd-bo-2024/aws-cd-bo-speaker22.webp",
+    description: "Description for Speaker 1",
+  },
+  {
     name: "Diego Condori",
     jobTitle: "Director en DeepSec",
     image: "https://aws-cd-bo-web.s3.amazonaws.com/speakers-aws-cd-bo-2024/aws-cd-bo-speaker23.webp",
     description: "Description for Speaker 1",
     linkedin: "https://www.linkedin.com/in/diego-condori-465a381bb/",
-  },
-  {
-    name: "Marcelo Reyes",
-    jobTitle: "Project Manager en Encora",
-    image: "https://aws-cd-bo-web.s3.amazonaws.com/speakers-aws-cd-bo-2024/aws-cd-bo-speaker22.webp",
-    description: "Description for Speaker 1",
   },
 ];

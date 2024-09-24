@@ -31,6 +31,17 @@ const SponsorsOro = ({ className = "" }) => {
             src="https://aws-cd-bo-web.s3.amazonaws.com/aws-cd-bo-sponsors-files/sponsors-logos/logo-assuresoft.png"
           />
         </a>
+        <a
+          href="https://www.escala24x7.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img
+            className="self-stretch w-[150px]  mq800:pt-0 relative max-h-full overflow-hidden shrink-0 min-h-[56px] transition-transform duration-300 ease-in-out hover:scale-110"
+            alt=""
+            src="https://aws-cd-bo-web.s3.amazonaws.com/aws-cd-bo-sponsors-files/sponsors-logos/logo-escala24x7.png"
+          />
+        </a>
       </div>
     </div>
   );
