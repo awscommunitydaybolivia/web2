@@ -44,9 +44,9 @@ const Navbar = ({
           />
         </div>
         <nav className="m-0 w-[460px] overflow-hidden shrink-0 flex flex-row items-start justify-between py-5 px-0 box-border max-w-full whitespace-nowrap gap-[20px] text-left text-base text-link-primary font-aws-cd-bo-1-desktop-body-caption-regular mq450:flex-wrap mq1125:hidden">
-          <div className="relative leading-[120%] inline-block min-w-[39px] hover:underline cursor-pointer">
+          {/*<div className="relative leading-[120%] inline-block min-w-[39px] hover:underline cursor-pointer">
             Inicio
-          </div>
+          </div>*/}
           <div
             onClick={onSpeakersClick}
             className="relative leading-[120%] inline-block min-w-[65px] hover:underline cursor-pointer"
@@ -174,12 +174,12 @@ const Navbar = ({
               />
             </div>
             <nav className="flex flex-col gap-5 text-left text-lg text-link-primary font-aws-cd-bo-1-desktop-body-caption-regular">
-              <div
+              {/*<div
                 className="relative leading-[180%] py-2 hover:underline cursor-pointer"
                 onClick={handleNavClick()}
               >
                 Inicio
-              </div>
+              </div>*/}
               <div
                 className="relative leading-[180%] py-2 hover:underline cursor-pointer"
                 onClick={handleNavClick(onSpeakersClick)}

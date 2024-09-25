@@ -6,6 +6,8 @@ import {
   useLocation,
 } from "react-router-dom";
 import Home from "./pages/Home";
+import VacanciesPage from './pages/VacanciesPage';
+
 
 function App() {
   const action = useNavigationType();
@@ -46,6 +48,7 @@ function App() {
   return (
     <Routes>
       <Route path="/" element={<Home />} />
+      <Route path="/vacantes-sponsors" element={<VacanciesPage />} />
     </Routes>
   );
 }
