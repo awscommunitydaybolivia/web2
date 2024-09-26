@@ -10,18 +10,6 @@ const SponsorsDia = ({ className = "" }) => {
       </h3>
       <div className="flex flex-row items-center justify-center py-0 px-[94px] box-border gap-[48px] max-w-full mq1125:flex-wrap mq800:gap-[24px] mq800:pl-[47px] mq800:pr-[47px] mq800:box-border mq450:pl-5 mq450:pr-5 mq450:box-border">
         <a
-          href="https://aws.amazon.com/es/"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="inline-block"
-        >
-          <img
-            className="self-stretch w-[160px] relative max-h-full overflow-hidden shrink-0 min-h-[56px] transition-transform duration-300 ease-in-out hover:scale-110"
-            alt=""
-            src="/aws-logo.svg"
-          />
-        </a>
-        <a
           href="https://lpz.ucb.edu.bo/"
           target="_blank"
           rel="noopener noreferrer"

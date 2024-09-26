@@ -1,9 +1,11 @@
 import React, { forwardRef } from "react";
 
+import SponsorsMain from "./SponsorMain";
 import SponsorsDia from "./SponsorsDia";
 import SponsorsPlati from "./SponsorsPlati";
 import SponsorsOro from "./SponsorsOro";
 import SponsorsPlata from "./SponsorsPlata";
+import SponsorsCobre from "./SponsorsCobre";
 
 import PropTypes from "prop-types";
 
@@ -18,10 +20,12 @@ const Sponsors = forwardRef(({ className = "" }, ref) => {
           Nuestros Sponsors
         </h1>
       </div>
+      <SponsorsMain />
       <SponsorsDia />
       <SponsorsPlati />
       <SponsorsOro />
       {/*<SponsorsPlata heading="Sponsors Plata" />*/}
+      <SponsorsCobre />
       <div className="max-w-lg mq450:max-w-60 items-center justify-center ">
         <div className="self-stretch relative text-lg mq450:text-sm leading-[120%]">
           <p className="m-0">
