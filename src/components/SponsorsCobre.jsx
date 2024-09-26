@@ -11,7 +11,7 @@ const SponsorsCobre = ({ className = "" }) => {
 
       <div className="flex flex-row items-center justify-center py-8 px-[94px] box-border gap-[48px] max-w-full mq1125:flex-wrap mq800:gap-[24px] mq800:pl-[47px] mq800:pr-[47px] mq800:box-border mq450:py-4 mq450:pl-5 mq450:pr-5 mq450:box-border">
       <a
-          href="https://nowisnao.com/"
+          href="https://www.solydesaceleradora.org/"
           target="_blank"
           rel="noopener noreferrer"
           className="inline-block"
