@@ -3,8 +3,7 @@ import { Link } from "react-router-dom";
 
 import vacanciesData from "../data/vacanciesData"; // Import the vacancies data
 import Footer from "../components/Footer";
-import FloatingBackButton from '../components/FloatingBackButton';
-
+import FloatingBackButton from "../components/FloatingBackButton";
 
 const VacanciesPage = () => {
   return (
@@ -49,10 +48,12 @@ const VacanciesPage = () => {
                 {vacancy.yearsOfExperience}
               </p>
               <p className="text-lg mb-2">
-                <strong>Requisitos:</strong> {vacancy.skills.join(", ")}
+                <strong>Requisitos:</strong>{" "}
+                <ul> {vacancy.skills.join(", ")}</ul>
               </p>
               <p className="text-lg mb-2">
-                <strong>Competencias:</strong> {vacancy.skills.join(", ")}
+                <strong>Competencias:</strong>{" "}
+                <ul> {vacancy.competences.join(", ")}</ul>
               </p>
               <p className="text-lg mb-2">
                 <strong>Region:</strong> {vacancy.region}
@@ -81,7 +82,6 @@ const VacanciesPage = () => {
       </div>
       <FloatingBackButton />
       <Footer />
-
     </div>
   );
 };
