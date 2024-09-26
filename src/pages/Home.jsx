@@ -7,7 +7,7 @@ import Map1 from "../components/Map1";
 import Speakers from "../components/Speakers";
 import Sponsors from "../components/Sponsors";
 import ComunidadesAliadas from "../components/ComunidadesAliadas";
-import Layout from "../components/Layout";
+import VacanciesLayout from "../components/VacanciesLayout";
 import Agenda from "../components/Agenda";
 import FAQ from "../components/FAQ";
 import Team from "../components/Team";
@@ -63,7 +63,7 @@ const Home = () => {
       <Map1 />
       <Speakers ref={speakersRef} />
       <Sponsors ref={sponsorsRef} />
-      <Layout />
+      <VacanciesLayout />
       {/*<Agenda ref={agendaRef}/>*/}
       <ComunidadesAliadas />
       <Team ref={teamRef} />

@@ -2,7 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import { Link } from "react-router-dom";
 
-const Layout = ({ className = "" }) => {
+const VacanciesLayout = ({ className = "" }) => {
   return (
     <section
       className={`self-stretch bg-background-color-primary overflow-hidden flex flex-col items-start justify-start py-28 px-16 box-border max-w-full text-center text-base text-link-primary font-aws-cd-bo-1-desktop-body-caption-regular mq800:gap-[40px] mq800:pl-8 mq800:pr-8 mq800:box-border mq1125:pt-[73px] mq1125:pb-[73px] mq1125:box-border mq450:gap-[20px] mq450:pt-[47px] mq450:pb-[47px] mq450:box-border ${className}`}
@@ -16,7 +16,7 @@ const Layout = ({ className = "" }) => {
                 Vacantes laborales
               </h1>
               <div className="self-stretch relative text-lg tracking-[-0.02px] leading-[120%] inline-block">
-                Descubre las vacantes laborales disponibles que nuestros
+                Explora las increíbles oportunidades laborales que nuestros
                 Sponsors tienen para ti
               </div>
             </div>
@@ -36,15 +36,15 @@ const Layout = ({ className = "" }) => {
           className="h-[640px] flex-1 relative max-w-full overflow-hidden object-cover min-w-[400px] mq800:min-w-full"
           loading="lazy"
           alt=""
-          src="https://images.pexels.com/photos/3201476/pexels-photo-3201476.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+          src="https://images.unsplash.com/photo-1521737711867-e3b97375f902?q=80&w=2787&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
         />
       </div>
     </section>
   );
 };
 
-Layout.propTypes = {
+VacanciesLayout.propTypes = {
   className: PropTypes.string,
 };
 
-export default Layout;
+export default VacanciesLayout;
