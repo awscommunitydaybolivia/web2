@@ -77,7 +77,7 @@ export const vacanciesData = [
     seniority: "Senior",
     english: "Advanced",
     yearsOfExperience: "5+ years",
-    skills: ["Java, Spring Boot, Microservices architecture, REST API design, SOLID principles, Relational databases (MySQL, PostgreSQL)"],
+    skills: ["Java, Spring Boot, Microservices architecture, REST API design, SOLID principles, Relational databases (MySQL - PostgreSQL)"],
     competences: ["Systems architecture, Full software development lifecycle, Performance optimization, Code review and mentoring, Collaboration with cross-functional teams"],
     region: "Latam",
     workType: "100% work from home",
