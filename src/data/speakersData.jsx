@@ -149,4 +149,31 @@ export const speakersData = [
     description: "Description for Speaker 1",
     linkedin: "https://www.linkedin.com/in/diego-condori-465a381bb/",
   },
+  {
+    name: "Ever Argollo",
+    jobTitle: "DevOps Engineer",
+    image: "https://aws-cd-bo-web.s3.amazonaws.com/speakers-aws-cd-bo-2024/aws-cd-bo-speaker-rtcd-01.webp",
+    description: "Description for Speaker 1",
+  },
+  {
+    name: "Alex Flores",
+    jobTitle: "DevOps Engineer en Assuresoft",
+    image: "https://aws-cd-bo-web.s3.amazonaws.com/speakers-aws-cd-bo-2024/aws-cd-bo-speaker-rtcd-02.webp",
+    description: "Description for Speaker 1",
+    linkedin: "https://www.linkedin.com/in/alex-flores-vargas-1599a4136",
+  },
+  {
+    name: "Nicolai Abruzzese",
+    jobTitle: "Arquitecto de Software",
+    image: "https://aws-cd-bo-web.s3.amazonaws.com/speakers-aws-cd-bo-2024/aws-cd-bo-speaker-rtcd-03.webp",
+    description: "Description for Speaker 1",
+    linkedin: "https://www.linkedin.com/in/nicolaiabruzzese/",
+  },
+  {
+    name: "Alexis Velasquez",
+    jobTitle: "FinOps",
+    image: "https://aws-cd-bo-web.s3.amazonaws.com/speakers-aws-cd-bo-2024/aws-cd-bo-speaker-rtcd-04.webp",
+    description: "Description for Speaker 1",
+    linkedin: "https://www.linkedin.com/in/alexis-vel%C3%A1squez-quintero-3a9003170/",
+  },
 ];

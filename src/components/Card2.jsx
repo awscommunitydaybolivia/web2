@@ -20,6 +20,7 @@ const Card2 = ({ speaker, className = "" }) => {
         </div>
       </div>
       <div className="flex flex-row items-start justify-start gap-[16px]">
+      {speaker.linkedin && (
         <a
           href={speaker.linkedin}
           target="_blank"
@@ -33,6 +34,7 @@ const Card2 = ({ speaker, className = "" }) => {
             src="/icon--linkedin.svg"
           />
         </a>
+        )}
         {speaker.twitter && (
         <a  
           href={speaker.twitter}
