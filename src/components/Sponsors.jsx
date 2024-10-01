@@ -26,25 +26,6 @@ const Sponsors = forwardRef(({ className = "" }, ref) => {
       <SponsorsOro />
       {/*<SponsorsPlata heading="Sponsors Plata" />*/}
       <SponsorsCobre />
-      <div className="max-w-lg mq450:max-w-60 items-center justify-center ">
-        <div className="self-stretch relative text-lg mq450:text-sm leading-[120%]">
-          <p className="m-0">
-            ¿Te interesaría ser nuestro Sponsor y ver tu marca aquí? Escríbenos para más detalles.
-          </p>
-        </div>
-        <div className="flex flex-row items-center justify-center pt-8 px-0 pb-0">
-          <a
-            href="https://calendar.app.google/f5FuSsheh1GzgoEN6"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="cursor-pointer py-3 px-6 bg-primary-primary rounded-31xl flex flex-row items-center justify-center whitespace-nowrap hover:bg-chocolate focus:outline-none focus:ring-2 focus:ring-chocolate no-underline"
-          >
-            <span className="relative text-base leading-[120%] font-aws-cd-bo-1-desktop-body-caption-regular text-background-color-primary text-left font-bold">
-              Contáctanos
-            </span>
-          </a>
-        </div>
-      </div>
     </section>
   );
 });

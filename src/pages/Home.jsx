@@ -2,7 +2,7 @@ import React, { useRef, useState, useEffect } from "react";
 
 import Navbar from "../components/Navbar";
 import EventItemHeader from "../components/EventItemHeader";
-import Beoursponsor from "../components/Beoursponsor";
+
 import Map1 from "../components/Map1";
 import Speakers from "../components/Speakers";
 import Sponsors from "../components/Sponsors";
@@ -59,7 +59,7 @@ const Home = () => {
         onFAQClick={() => scrollToSection(faqRef)}
       />
       <EventItemHeader onConsultaClick={() => scrollToSection(faqRef)} />
-      <Beoursponsor />
+      
       <Map1 />
       <Speakers ref={speakersRef} />
       <Sponsors ref={sponsorsRef} />
