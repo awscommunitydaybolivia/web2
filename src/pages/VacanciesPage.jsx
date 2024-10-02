@@ -91,7 +91,7 @@ const VacanciesPage = () => {
                   </ul>
                 </div>
                 <p className="text-lg mb-2">
-                  <strong>Region:</strong> {vacancy.region}
+                  <strong>Región:</strong> {vacancy.region}
                 </p>
                 <p className="text-lg mb-4">
                   <strong>Tipo:</strong> {vacancy.workType}
