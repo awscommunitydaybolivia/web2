@@ -64,7 +64,7 @@ const VacanciesPage = () => {
                   alt={`${vacancy.title} at ${vacancy.companyImg}`}
                   className="w-[240px] mq450:w-[180px] object-cover"
                 />
-                <h2 className="text-21xl font-bold mb-2">{vacancy.title}</h2>
+                <h2 className="text-21xl mq800:text-5xl font-bold mb-2">{vacancy.title}</h2>
                 <p className="text-lg mb-2">
                   <strong>Nivel:</strong> {vacancy.seniority}
                 </p>
