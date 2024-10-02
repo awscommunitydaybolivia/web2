@@ -75,7 +75,7 @@ Card.propTypes = {
     jobTitle: PropTypes.string.isRequired,
     image: PropTypes.string.isRequired,
     ug: PropTypes.string.isRequired,
-    linkedin: PropTypes.string.isRequired,
+    linkedin: PropTypes.string,
     twitter: PropTypes.string,
     instagram: PropTypes.string,
   }),

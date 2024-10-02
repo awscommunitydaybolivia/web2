@@ -7,6 +7,7 @@ import {
 } from "react-router-dom";
 import Home from "./pages/Home";
 import VacanciesPage from './pages/VacanciesPage';
+import Agenda from "./pages/Agenda";
 
 
 function App() {
@@ -49,6 +50,7 @@ function App() {
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/vacantes-sponsors" element={<VacanciesPage />} />
+      <Route path="/agenda" element={<Agenda />} />
     </Routes>
   );
 }
