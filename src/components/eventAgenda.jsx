@@ -46,15 +46,27 @@ const EventCard = memo(({ event }) => {
         </div>
       </div>
 
-      <p className={`text-lg text-gray-700 w-full ${isExpanded ? '' : 'line-clamp-2 mq800:line-clamp-3'}`}>
+      <p
+        className={`text-lg text-gray-700 w-full ${
+          isExpanded ? "" : "line-clamp-2 mq800:line-clamp-3"
+        }`}
+      >
         {event.description}
       </p>
-
-      <div className="flex justify-center w-full">
-        <button onClick={() => setIsExpanded(!isExpanded)} className="focus:outline-none">
-          <img src="/icon-down.svg" alt="expand" className={`w-6 h-6 ${isExpanded ? '' : 'animate-bounce'}`} />
-        </button>
-      </div>
+      {event.description && (
+        <div className="flex justify-center w-full">
+          <button
+            onClick={() => setIsExpanded(!isExpanded)}
+            className="focus:outline-none"
+          >
+            <img
+              src="/icon-down.svg"
+              alt="expand"
+              className={`w-6 h-6 ${isExpanded ? "" : "animate-bounce"}`}
+            />
+          </button>
+        </div>
+      )}
 
       <div className="flex flex-wrap gap-4 w-full">
         {event.speakers.map((speaker) => (
@@ -67,23 +79,31 @@ const EventCard = memo(({ event }) => {
 
 const Speaker = memo(({ speaker }) => (
   <div className="flex items-center space-x-2">
-    <img
-      src={speaker.photo}
-      alt={`${speaker.name}'s photo`}
-      className="w-12 h-12 rounded-full"
-    />
+    {speaker.photo && (
+      <img
+        src={speaker.photo}
+        alt={`${speaker.name}'s photo`}
+        className="w-12 h-12 rounded-full"
+      />
+    )}
     <div className="flex flex-col">
       <div className="flex items-center space-x-2">
         <div className="font-semibold">{speaker.name}</div>
-        <a
-          href={speaker.linkedin}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="text-blue-500"
-          aria-label={`${speaker.name}'s LinkedIn profile`}
-        >
-          <img src="/icon--linkedin-1.svg" alt="LinkedIn" className="w-5 h-5" />
-        </a>
+        {speaker.linkedin && (
+          <a
+            href={speaker.linkedin}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-500"
+            aria-label={`${speaker.name}'s LinkedIn profile`}
+          >
+            <img
+              src="/icon--linkedin-1.svg"
+              alt="LinkedIn"
+              className="w-5 h-5"
+            />
+          </a>
+        )}
       </div>
       <div className="text-sm text-gray-500">{speaker.position}</div>
     </div>
