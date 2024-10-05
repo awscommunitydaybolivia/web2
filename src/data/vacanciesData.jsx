@@ -179,6 +179,43 @@ export const vacanciesData = [
     workType: "Remote",
     url: "https://www.assuresoft.com/careers/open-positions/jobs/e_board/4372677006",
   },
+  {
+    companyImg: "https://aws-cd-bo-web.s3.amazonaws.com/aws-cd-bo-sponsors-files/sponsors-logos/encora-logo.svg",
+    title: "Senior AI/ML Engineer",
+    seniority: "Senior",
+    english: "Advanced",
+    yearsOfExperience: "5+ años",
+    skills: ["Python, TensorFlow, PyTorch, NLP, Modelos LLM (GPT - BERT), Ajuste fino de modelos, Aprendizaje por transferencia, Adaptación de dominio, Plataformas en la nube (AWS - Azure - GCP)"],
+    competences: ["Graduados en sistemas - redes o campos relacionados, Experiencia en IA/ML, Despliegue de modelos, Procesamiento de lenguaje natural"],
+    region: "América Latina",
+    workType: "Trabajo desde casa",
+    url: "mailto:teresa.morales@encora.com?subject=Adjunto mi CV para la posicion de Senior AI/ML Engineer&body=Hola, estoy interesado en esta posicion de Senior AI/ML Engineer en Encora, te envio mi CV.",
+  },
+  {
+    companyImg: "https://aws-cd-bo-web.s3.amazonaws.com/aws-cd-bo-sponsors-files/sponsors-logos/encora-logo.svg",
+    title: "Generative AI Senior Software Engineer",
+    seniority: "Senior",
+    english: "Advanced",
+    yearsOfExperience: "8+ años",
+    skills: ["Desarrollo y despliegue de modelos de IA generativa (GANs - VAEs), Programación en Python, Frameworks de IA (TensorFlow - PyTorch)"],
+    competences: ["Graduados en sistemas - redes o campos relacionados, Liderazgo, Gestión de proyectos técnicos, Mentoría, Resolución de problemas, Patrones de diseño, Revisión de código y pruebas"],
+    region: "América Latina",
+    workType: "Trabajo desde casa",
+    url: "mailto:teresa.morales@encora.com?subject=Adjunto mi CV para la posicion de Generative AI Senior Software Engineer&body=Hola, estoy interesado en esta posicion de Generative AI Senior Software Engineer en Encora, te envio mi CV.",
+  },
+  {
+    companyImg: "https://aws-cd-bo-web.s3.amazonaws.com/aws-cd-bo-sponsors-files/sponsors-logos/encora-logo.svg",
+    title: "Mid Data Engineer",
+    seniority: "Mid",
+    english: "Básico/Intermedio",
+    yearsOfExperience: "8+ años",
+    skills: ["Python puro (código y scripting), Consultas SQL, Pandas, Lectura de código legado, Uso de repositorios"],
+    competences: ["Egresados de sistemas - desarrollo o afines, Automatización de procesos manuales, Proactividad, Resolución de problemas, Buena comunicación con usuarios, Deseable:, Manejo de tablas dinámicas, Power BI, GCP u otra nube"],
+    region: "América Latina",
+    workType: "Trabajo desde casa",
+    url: "mailto:teresa.morales@encora.com?subject=Adjunto mi CV para la posicion de Mid Data Engineer&body=Hola, estoy interesado en esta posicion de Mid Data Engineer en Encora, te envio mi CV.",
+  },
 ];
 
 export default vacanciesData;
+

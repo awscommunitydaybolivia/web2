@@ -148,7 +148,7 @@ export const AgendaData = [
         position: "Ingeniero de Software en Collectives",
         linkedin: "https://www.linkedin.com/in/victoraguilarc/",
         bio: "Desarrollador de sofware con mas de 10 años de experiencia, participando en contribuyendo en la creación de apps y software con millones de usuarios en diferentes roles.",
-        photo: "",
+        photo: "https://aws-cd-bo-web.s3.amazonaws.com/speakers-aws-cd-bo-2024/aws-cd-bo-speaker08a.webp",
       },
     ],
   },
@@ -258,10 +258,10 @@ export const AgendaData = [
     speakers: [
       {
         name: "Alan	Lopez",
-        position: "",
-        linkedin: "",
+        position: "Technical Account Manager",
+        linkedin: "https://www.linkedin.com/in/alanlopez2020",
         bio: "",
-        photo: "",
+        photo: "https://aws-cd-bo-web.s3.amazonaws.com/speakers-aws-cd-bo-2024/aws-cd-bo-speaker16a.webp",
       },
     ],
   },

@@ -150,6 +150,13 @@ export const speakersData = [
     linkedin: "https://www.linkedin.com/in/diego-condori-465a381bb/",
   },
   {
+    name: " Victor Aguilar",
+    jobTitle: "Ingeniero de Software en Collectives",
+    image: "https://aws-cd-bo-web.s3.amazonaws.com/speakers-aws-cd-bo-2024/aws-cd-bo-speaker08a.webp",
+    description: "Description for Speaker 1",
+    linkedin: "https://www.linkedin.com/in/victoraguilarc/",
+  },
+  {
     name: "Ever Argollo",
     jobTitle: "DevOps Engineer",
     image: "https://aws-cd-bo-web.s3.amazonaws.com/speakers-aws-cd-bo-2024/aws-cd-bo-speaker-rtcd-01.webp",
@@ -175,5 +182,12 @@ export const speakersData = [
     image: "https://aws-cd-bo-web.s3.amazonaws.com/speakers-aws-cd-bo-2024/aws-cd-bo-speaker-rtcd-04.webp",
     description: "Description for Speaker 1",
     linkedin: "https://www.linkedin.com/in/alexis-vel%C3%A1squez-quintero-3a9003170/",
+  },
+  {
+    name: "Alan Lopez",
+    jobTitle: "Technical Account Manager",
+    image: "https://aws-cd-bo-web.s3.amazonaws.com/speakers-aws-cd-bo-2024/aws-cd-bo-speaker16a.webp",
+    description: "Description for Speaker 1",
+    linkedin: "https://www.linkedin.com/in/alanlopez2020",
   },
 ];
