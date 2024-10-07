@@ -43,7 +43,7 @@ const Navbar = ({
             src="https://aws-cd-bo-web.s3.amazonaws.com/aws-cd-bo-logos-web/AWS-CD-BO-logoweb.svg"
           />
         </div>
-        <nav className="m-0 w-[460px] overflow-hidden shrink-0 flex flex-row items-start justify-between py-5 px-0 box-border max-w-full whitespace-nowrap gap-[20px] text-left text-base text-link-primary font-aws-cd-bo-1-desktop-body-caption-regular mq450:flex-wrap mq1125:hidden">
+        <nav className="m-0 overflow-hidden shrink-0 flex flex-row items-start justify-between py-5 px-0 box-border max-w-full whitespace-nowrap gap-[20px] text-left text-base text-link-primary font-aws-cd-bo-1-desktop-body-caption-regular mq450:flex-wrap mq1125:hidden">
           {/*<div className="relative leading-[120%] inline-block min-w-[39px] hover:underline cursor-pointer">
             Inicio
           </div>*/}
@@ -59,12 +59,12 @@ const Navbar = ({
           >
             Sponsors
           </div>
-          {/*<div
+          <div
             onClick={onAgendaClick}
             className="relative leading-[120%] inline-block min-w-[56px] hover:underline cursor-pointer"
           >
             Agenda
-          </div>*/}
+          </div>
           <div
             onClick={onTeamClick}
             className="relative leading-[120%] inline-block min-w-[51px] hover:underline cursor-pointer"
@@ -192,12 +192,12 @@ const Navbar = ({
               >
                 Sponsors
               </div>
-              {/*<div
+              <div
                 className="relative leading-[180%] py-2 hover:underline cursor-pointer"
                 onClick={handleNavClick(onAgendaClick)}
               >
                 Agenda
-              </div>*/}
+              </div>
               <div
                 className="relative leading-[180%] py-2 hover:underline cursor-pointer"
                 onClick={handleNavClick(onTeamClick)}
