@@ -21,7 +21,7 @@ export const AgendaData = [
     level: "L100",
     cat1: "Seguridad",
     cat2: "Servicios de AWS y cómo sacarles el máximo provecho",
-    room: "Sala Illimani (Auditorio 2)",
+    room: "Sala Illimani - Auditorio 3 (Principal)",
     time: "9:15 → 10:00",
     speakers: [
       {
@@ -44,7 +44,7 @@ export const AgendaData = [
     level: "L100",
     cat1: "ML& Gen AI",
     cat2: "Generative AI",
-    room: "Sala Sajama (Auditorio 3)",
+    room: "Sala Sajama - Auditorio 2",
     time: "9:15 → 10:00",
     speakers: [
       {
@@ -74,7 +74,7 @@ export const AgendaData = [
     level: "L100",
     cat1: "Arquitectura y servicios",
     cat2: "Servicios de AWS y cómo sacarles el máximo provecho",
-    room: "Sala Illampu (Laboratorio 7)",
+    room: "Sala Illampu - Laboratorio 7",
     time: "9:15 → 10:15",
     speakers: [
       {
@@ -96,7 +96,7 @@ export const AgendaData = [
     level: "L100",
     cat1: "Arquitectura y servicios",
     cat2: "Casos de estudio y experiencias reales de implementación",
-    room: "Sala Illimani (Auditorio 2)",
+    room: "Sala Illimani - Auditorio 3 (Principal)",
     time: "10:00 → 10:45",
     speakers: [
       {
@@ -118,7 +118,7 @@ export const AgendaData = [
     level: "L200",
     cat1: "ML& Gen AI",
     cat2: "Generative AI",
-    room: "Sala Sajama (Auditorio 3)",
+    room: "Sala Sajama - Auditorio 2",
     time: "10:00 → 10:45",
     speakers: [
       {
@@ -140,7 +140,7 @@ export const AgendaData = [
     level: "L200",
     cat1: "ML& Gen AI",
     cat2: "Generative AI",
-    room: "Sala Illampu (Laboratorio 7)",
+    room: "Sala Illampu - Laboratorio 7",
     time: "10:15 → 11:15",
     speakers: [
       {
@@ -162,7 +162,7 @@ export const AgendaData = [
     level: "L200",
     cat1: "Arquitectura y servicios",
     cat2: "Servicios de AWS y cómo sacarles el máximo provecho",
-    room: "Sala Illimani (Auditorio 2)",
+    room: "Sala Illimani - Auditorio 3 (Principal)",
     time: "10:45 → 11:30",
     speakers: [
       {
@@ -185,7 +185,7 @@ export const AgendaData = [
     level: "L200",
     cat1: "Arquitectura y servicios",
     cat2: "Arquitectura Serverless",
-    room: "Sala Sajama (Auditorio 3)",
+    room: "Sala Sajama - Auditorio 2",
     time: "10:45 → 11:30",
     speakers: [
       {
@@ -208,7 +208,7 @@ export const AgendaData = [
     level: "L100",
     cat1: "Seguridad",
     cat2: "Generative AI",
-    room: "Sala Illampu (Laboratorio 7)",
+    room: "Sala Illampu - Laboratorio 7",
     time: "11:15 → 12:15",
     speakers: [
       {
@@ -231,7 +231,7 @@ export const AgendaData = [
     level: "L300",
     cat1: "ML& Gen AI",
     cat2: "Generative AI",
-    room: "Sala Illimani (Auditorio 2)",
+    room: "Sala Illimani - Auditorio 3 (Principal)",
     time: "11:30 → 12:15",
     speakers: [
       {
@@ -253,7 +253,7 @@ export const AgendaData = [
     level: "L100",
     cat1: "Arquitectura y servicios",
     cat2: "Servicios de AWS y cómo sacarles el máximo provecho",
-    room: "Sala Sajama (Auditorio 3)",
+    room: "Sala Sajama - Auditorio 2",
     time: "11:30 → 12:15",
     speakers: [
       {
@@ -268,7 +268,7 @@ export const AgendaData = [
   {
     type: "specialEvent",
     eventName: "Almuerzo 🍔",
-    description: "Entrega de Kits - Networking, comida, y networking 🙂",
+    description: "Entrega de Kits - Networking 🙂",
     time: "12:30 → 14:00",
   },
   {
@@ -281,7 +281,7 @@ export const AgendaData = [
     level: "L200",
     cat1: "ML& Gen AI",
     cat2: "Generative AI",
-    room: "Sala Illimani (Auditorio 2)",
+    room: "Sala Illimani - Auditorio 3 (Principal)",
     time: "14:00 → 14:45",
     speakers: [
       {
@@ -304,7 +304,7 @@ export const AgendaData = [
     level: "L200",
     cat1: "Arquitectura y servicios",
     cat2: "Manejo de bases de datos",
-    room: "Sala Sajama (Auditorio 3)",
+    room: "Sala Sajama - Auditorio 2",
     time: "14:00 → 14:45",
     speakers: [
       {
@@ -327,7 +327,7 @@ export const AgendaData = [
     level: "L100",
     cat1: "ML& Gen AI",
     cat2: "Inteligencia Artificial y Machine Learning en AWS",
-    room: "Sala Illampu (Laboratorio 7)",
+    room: "Sala Illampu - Laboratorio 7",
     time: "14:00 → 15:00",
     speakers: [
       {
@@ -349,7 +349,7 @@ export const AgendaData = [
     level: "L200",
     cat1: "ML& Gen AI",
     cat2: "Generative AI",
-    room: "Sala Illimani (Auditorio 2)",
+    room: "Sala Illimani - Auditorio 3 (Principal)",
     time: "14:45 → 15:30",
     speakers: [
       {
@@ -371,7 +371,7 @@ export const AgendaData = [
     level: "L300",
     cat1: "Arquitectura y servicios",
     cat2: "Arquitectura y mejores prácticas en la nube",
-    room: "Sala Sajama (Auditorio 3)",
+    room: "Sala Sajama - Auditorio 2",
     time: "14:45 → 15:30",
     speakers: [
       {
@@ -393,7 +393,7 @@ export const AgendaData = [
     level: "L100",
     cat1: "Arquitectura y servicios",
     cat2: "Arquitectura Serverless",
-    room: "Sala Illampu (Laboratorio 7)",
+    room: "Sala Illampu - Laboratorio 7",
     time: "15:00 → 16:00",
     speakers: [
       {
@@ -415,7 +415,7 @@ export const AgendaData = [
     level: "L100",
     cat1: "Arquitectura y servicios",
     cat2: "DevOps y Site Reliability Engineering",
-    room: "Sala Illimani (Auditorio 2)",
+    room: "Sala Illimani - Auditorio 3 (Principal)",
     time: "15:30 → 16:15",
     speakers: [
       {
@@ -437,7 +437,7 @@ export const AgendaData = [
     level: "L100",
     cat1: "Arquitectura y servicios",
     cat2: "Big Data y análisis de datos",
-    room: "Sala Sajama (Auditorio 3)",
+    room: "Sala Sajama - Auditorio 2",
     time: "15:30 → 16:15",
     speakers: [
       {
@@ -460,7 +460,7 @@ export const AgendaData = [
     level: "L200",
     cat1: "ML& Gen AI",
     cat2: "Inteligencia Artificial y Machine Learning en AWS",
-    room: "Sala Illampu (Laboratorio 7)",
+    room: "Sala Illampu - Laboratorio 7",
     time: "16:00 → 17:00",
     speakers: [
       {
@@ -482,7 +482,7 @@ export const AgendaData = [
     level: "L200",
     cat1: "Arquitectura y servicios",
     cat2: "Servicios de AWS y cómo sacarles el máximo provecho",
-    room: "Sala Illimani (Auditorio 2)",
+    room: "Sala Illimani - Auditorio 3 (Principal)",
     time: "16:15 → 17:00",
     speakers: [
       {
@@ -504,7 +504,7 @@ export const AgendaData = [
     level: "L300",
     cat1: "Arquitectura y servicios",
     cat2: "Servicios de AWS y cómo sacarles el máximo provecho",
-    room: "Sala Sajama (Auditorio 3)",
+    room: "Sala Sajama - Auditorio 2",
     time: "16:15 → 17:00",
     speakers: [
       {
