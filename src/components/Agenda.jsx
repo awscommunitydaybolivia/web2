@@ -30,12 +30,12 @@ const Agenda = forwardRef(({ className = "" }, ref) => {
           <img
             className="self-stretch relative pl-[80px] pr-[80px] mq1125:pl-[20px] mq1125:pr-[20px] mq800:pl-[20px] mq800:pr-[20px] overflow-hidden shrink-0 mq800:py-2 mq450:hidden"
             alt="Desktop version"
-            src="https://aws-cd-bo-web.s3.amazonaws.com/aws-cd-bo-web-imgs/agenda-desktop-aws-cd-bo.webp"
+            src="https://aws-cd-bo-web.s3.amazonaws.com/aws-cd-bo-web-imgs/agenda-desktop-aws-cd-bo-3a.webp"
           />
           <img
             className="self-stretch relative  mq450:pl-[0px] mq450:pr-[0px] hidden mq450:block"
             alt="Mobile version"
-            src="https://aws-cd-bo-web.s3.amazonaws.com/aws-cd-bo-web-imgs/agenda-mobile-aws-cd-bo-2a.webp"
+            src="https://aws-cd-bo-web.s3.amazonaws.com/aws-cd-bo-web-imgs/agenda-mobile-aws-cd-bo-3a.webp"
           />
         </div>
       </div>
