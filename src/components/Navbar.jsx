@@ -119,8 +119,8 @@ const Navbar = ({
                 src="/icon--linkedin.svg"
               />
             </a>
-            {/*<a
-              href="https://www.youtube.com/"
+            <a
+              href="https://www.youtube.com/@awscommunitydaybolivia"
               target="_blank"
               rel="noopener noreferrer"
               className="transition-all duration-300 ease-in-out hover:scale-110 group"
@@ -131,7 +131,7 @@ const Navbar = ({
                 alt="YouTube"
                 src="/icon--youtube.svg"
               />
-            </a>*/}
+            </a>
           </div>
           <a
             href="mailto:contacto@awscommunity.org.bo"

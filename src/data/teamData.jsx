@@ -104,4 +104,18 @@ export const teamData = [
       "https://www.linkedin.com/in/oscar-campohermoso-berdeja-0083182b5",
     instagram: "https://www.instagram.com/oscar.berdeja/",
   },
+  {
+    name: "José Antonio Campero",
+    jobTitle: "Voluntario",
+    image:
+      "https://aws-cd-bo-web.s3.amazonaws.com/aws-cd-bo-team/aws-cd-bo-team-13.webp",
+    ug: "",
+  },
+  {
+    name: "Rodrigo Camilo Mendez Gallardo ",
+    jobTitle: "Voluntario",
+    image:
+      "https://aws-cd-bo-web.s3.amazonaws.com/aws-cd-bo-team/aws-cd-bo-team-14.webp",
+    ug: "",
+  },
 ];
